@@ -1,0 +1,62 @@
+\contentsline {definition}{{Definition}{1}{Topological space}}{5}{definition.1}%
+\contentsline {definition}{{Definition}{2}{Continous maps and homeomorphism}}{5}{definition.2}%
+\contentsline {definition}{{Definition}{3}{Pseudometric}}{5}{definition.3}%
+\contentsline {lemma}{{Lemma}{1}{Pseudometric topological space}}{6}{lemma.1}%
+\contentsline {proof}{{Proof}{1}{}}{6}{proof.1}%
+\contentsline {definition}{{Definition}{4}{Topological manifold}}{7}{definition.4}%
+\contentsline {definition}{{Definition}{5}{Partition of unity}}{7}{definition.5}%
+\contentsline {definition}{{Definition}{6}{Smooth manifold}}{7}{definition.6}%
+\contentsline {definition}{{Definition}{7}{Smooth map}}{7}{definition.7}%
+\contentsline {definition}{{Definition}{8}{Smooth - compactly supported - function}}{8}{definition.8}%
+\contentsline {definition}{{Definition}{9}{Tangent and line bundle}}{8}{definition.9}%
+\contentsline {definition}{{Definition}{10}{Lorentzian manifold}}{9}{definition.10}%
+\contentsline {lemma}{{Lemma}{2}{Riemann Legesgue meseasure}}{10}{lemma.2}%
+\contentsline {proof}{{Proof}{2}{}}{10}{proof.2}%
+\contentsline {definition}{{Definition}{11}{Cauchy surface}}{12}{definition.11}%
+\contentsline {definition}{{Definition}{12}{Curved spacetime}}{12}{definition.12}%
+\contentsline {definition}{{Definition}{13}{Off shell configuration space}}{15}{definition.13}%
+\contentsline {definition}{{Definition}{14}{Spacetime support}}{15}{definition.14}%
+\contentsline {lemma}{{Lemma}{3}{``Rigidity'' of the spacetime support}}{15}{lemma.3}%
+\contentsline {proof}{{Proof}{3}{}}{16}{proof.3}%
+\contentsline {definition}{{Definition}{15}{Functional derivative}}{16}{definition.15}%
+\contentsline {example}{{Example}{1}{}}{16}{example.1}%
+\contentsline {lemma}{{Lemma}{4}{}}{16}{lemma.4}%
+\contentsline {lemma}{{Lemma}{5}{Smooth functional}}{17}{lemma.5}%
+\contentsline {lemma}{{Lemma}{6}{``Characterization'' of the spacetime support}}{17}{lemma.6}%
+\contentsline {proof}{{Proof}{4}{}}{17}{proof.4}%
+\contentsline {definition}{{Definition}{16}{Action}}{17}{definition.16}%
+\contentsline {definition}{{Definition}{17}{Space of regular functionals}}{21}{definition.17}%
+\contentsline {definition}{{Definition}{18}{Space of microcausal functional}}{21}{definition.18}%
+\contentsline {definition}{{Definition}{19}{Space of local functional}}{21}{definition.19}%
+\contentsline {definition}{{Definition}{20}{Additivity}}{21}{definition.20}%
+\contentsline {lemma}{{Lemma}{7}{Locality via the additivity condition}}{21}{lemma.7}%
+\contentsline {proof}{{Proof}{5}{}}{21}{proof.5}%
+\contentsline {lemma}{{Lemma}{8}{Decomposition of additive functionals}}{21}{lemma.8}%
+\contentsline {proof}{{Proof}{6}{}}{21}{proof.6}%
+\contentsline {remark}{{Remark}{1}{}}{30}{remark.1}%
+\contentsline {definition}{{Definition}{21}{}}{31}{definition.21}%
+\contentsline {definition}{{Definition}{22}{}}{31}{definition.22}%
+\contentsline {proposition}{{Proposition}{1}{}}{31}{proposition.1}%
+\contentsline {proof}{{Proof}{7}{}}{31}{proof.7}%
+\contentsline {proposition}{{Proposition}{2}{}}{32}{proposition.2}%
+\contentsline {proof}{{Proof}{8}{}}{32}{proof.8}%
+\contentsline {proposition}{{Proposition}{3}{}}{32}{proposition.3}%
+\contentsline {proof}{{Proof}{9}{}}{32}{proof.9}%
+\contentsline {proposition}{{Proposition}{4}{}}{33}{proposition.4}%
+\contentsline {proof}{{Proof}{10}{}}{34}{proof.10}%
+\contentsline {proposition}{{Proposition}{5}{}}{34}{proposition.5}%
+\contentsline {proposition}{{Proposition}{6}{}}{35}{proposition.6}%
+\contentsline {proof}{{Proof}{11}{}}{35}{proof.11}%
+\contentsline {lemma}{{Lemma}{9}{}}{36}{lemma.9}%
+\contentsline {proof}{{Proof}{12}{}}{36}{proof.12}%
+\contentsline {proposition}{{Proposition}{7}{}}{37}{proposition.7}%
+\contentsline {proof}{{Proof}{13}{}}{37}{proof.13}%
+\contentsline {remark}{{Remark}{2}{}}{38}{remark.2}%
+\contentsline {proposition}{{Proposition}{8}{}}{38}{proposition.8}%
+\contentsline {proof}{{Proof}{14}{}}{38}{proof.14}%
+\contentsline {remark}{{Remark}{3}{}}{39}{remark.3}%
+\contentsline {remark}{{Remark}{4}{}}{39}{remark.4}%
+\contentsline {lemma}{{Lemma}{10}{}}{39}{lemma.10}%
+\contentsline {proof}{{Proof}{15}{}}{40}{proof.15}%
+\contentsline {proposition}{{Proposition}{9}{}}{40}{proposition.9}%
+\contentsline {proof}{{Proof}{16}{}}{41}{proof.16}%

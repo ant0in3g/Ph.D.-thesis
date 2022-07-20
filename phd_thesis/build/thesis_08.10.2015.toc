@@ -1,0 +1,56 @@
+\babel@toc {english}{}
+\contentsline {part}{Introduction}{1}{part*.3}%
+\contentsline {part}{I\hspace {1em}Algebraic approach to quantum field theory}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Spacetime}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}From topology to manifold}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Lorentzian manifold}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Smoothness}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Lorentzian structure}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Integration}{9}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Covariant derivative and curvature}{10}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Causality}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Futurs and pasts}{11}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Global hyperbolicity}{12}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {2}Free theory}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Off shell configuration space}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Functional view of observables}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Classical field theory}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Quantization via formal deformation}{18}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Interacting quantum field theory}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Basic definitions}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Particular spaces of observables}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Relation to the standard formulation of perturbative QFT}{22}{section.3.3}%
+\contentsline {chapter}{\numberline {4}The renormalization problem}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Extension of distributions}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The microlocal framework}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The Epstein Glaser procedure}{25}{section.4.3}%
+\contentsline {chapter}{\numberline {5}A regularisation sheme}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Analytic regularistion of time--ordered products and the minimal subtraction scheme}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Analytic regularisation of the Feynman propagator on curved spacetimes}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Generalised Euler operators and principal parts of homogeneous expansions}{33}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}The differential form of generalised Euler operators and homogeneous expansions of Feynman amplitudes}{35}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Properties of the minimal subtraction scheme}{38}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Examples}{39}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Computation of the renormalised fish and sunset graphs in our scheme}{39}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Alternative computation of the renormalised fish and sunset graphs}{39}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}A more complicated graph}{41}{subsection.5.5.3}%
+\contentsline {chapter}{\numberline {6}Exercises time}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Explicit computations in cosmological spacetimes}{43}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Propagators in Fourier space}{43}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}The renormalised fish and sunset graphs in Fourier space}{44}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Example: the two-point function for a quartic potential up to second order}{46}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}More complicated graphs on cosmological spacetimes}{46}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Stress energy tensor}{47}{section.6.2}%
+\contentsline {part}{II\hspace {1em}Noncommutative approach to field theory}{49}{part.2}%
+\contentsline {chapter}{\numberline {7}Noncommutative gauge theories on 3-dimensional noncommutative space}{51}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Main definitions and properties}{51}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Differential calculus on noncommutative spaces}{52}{section.7.2}%
+\contentsline {section}{\numberline {7.3}A family of gauge invariant classical actions}{54}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Perturbative analysis}{57}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Gauge-fixing}{57}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Gauge-fixed action}{58}{section.8.2}%
+\contentsline {section}{\numberline {8.3}One-loop 2-point and 4-point functions}{59}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Finitude of the diagram amplitudes to all orders}{61}{section.8.4}%
+\contentsline {part}{Conclusion}{65}{part*.4}%
+\contentsline {chapter}{Bibliography}{70}{chapter*.6}%
+\contentsline {chapter}{Index}{71}{chapter*.7}%

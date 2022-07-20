@@ -1,0 +1,101 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis_08.10.2015.aux
+The style file: abbrv.bst
+Database file #1: biblio.bib
+I was expecting a `,' or a `}'---line 64 of file biblio.bib
+ :         
+ :         publisher = {Zürich, Switzerland : European Mathematical Society},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "DEGNER_2013" isn't style-file defined
+--line 117 of file biblio.bib
+Warning--entry type for "SCHLEMMER_2010" isn't style-file defined
+--line 126 of file biblio.bib
+Warning--entry type for "BLASCHKE_2008" isn't style-file defined
+--line 135 of file biblio.bib
+Warning--entry type for "LINDNER_2013" isn't style-file defined
+--line 144 of file biblio.bib
+Warning--entry type for "SIEMSSEN_2015" isn't style-file defined
+--line 153 of file biblio.bib
+Warning--entry type for "DANG_2013" isn't style-file defined
+--line 162 of file biblio.bib
+Warning--entry type for "HACK_2010" isn't style-file defined
+--line 171 of file biblio.bib
+Warning--entry type for "KELLER_2010" isn't style-file defined
+--line 182 of file biblio.bib
+I was expecting a `,' or a `}'---line 219 of file biblio.bib
+ :  
+ :  journal = {Physics Letters B},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 450 of file biblio.bib
+ :  
+ :  url = {http://arxiv.org/abs/gr-qc/0601008},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 702 of file biblio.bib
+ : @article{FR_2014
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 743 of file biblio.bib
+ :  
+ :  url = {http://arxiv.org/abs/gr-qc/0111108},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring PRANGE_1999's extra "pages" field
+--line 809 of file biblio.bib
+Warning--empty publisher in BGP_2007
+Warning--empty journal in BF_1997
+Warning--empty journal in BFLR_2012
+Warning--empty journal in DANG_2015
+Warning--empty journal in DFR_1994
+Warning--empty journal in DHP_2015
+Warning--empty journal in DV_1999
+Warning--empty publisher in FR_2014
+Warning--empty journal in GHP_2015
+Warning--empty journal in GJW_2015
+Warning--empty journal in HW_2002
+Warning--empty journal in KAY_2006
+You've used 85 entries,
+            2118 wiz_defined-function locations,
+            999 strings with 15312 characters,
+and the built_in function-call counts, 23960 in all, are:
+= -- 2374
+> -- 976
+< -- 0
++ -- 403
+- -- 304
+* -- 1491
+:= -- 4128
+add.period$ -- 247
+call.type$ -- 85
+change.case$ -- 393
+chr.to.int$ -- 0
+cite$ -- 97
+duplicate$ -- 906
+empty$ -- 1999
+format.name$ -- 304
+if$ -- 4898
+int.to.chr$ -- 0
+int.to.str$ -- 85
+missing$ -- 91
+newline$ -- 420
+num.names$ -- 170
+pop$ -- 419
+preamble$ -- 1
+purify$ -- 322
+quote$ -- 0
+skip$ -- 616
+stack$ -- 0
+substring$ -- 1608
+swap$ -- 75
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 312
+warning$ -- 12
+while$ -- 260
+width$ -- 87
+write$ -- 877
+(There were 5 error messages)

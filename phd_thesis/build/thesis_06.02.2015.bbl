@@ -1,0 +1,469 @@
+\begin{thebibliography}{10}
+
+\bibitem{ALLEN_1985}
+B.~Allen.
+\newblock Vacuum states in de sitter space.
+\newblock {\em Physical Review D}, 32:3136--3149, 1985.
+
+\bibitem{BCK_2010}
+J.~Baacke, L.~Covi, and N.~Kevlishvili.
+\newblock Coupled scalar fields in a flat {FRW} universe: renormalisation.
+\newblock {\em Journal of Cosmology and Astroparticle Physics}, 1008:026, 2010.
+
+\bibitem{BGP_2007}
+C.~Baer, N.~Ginoux, and F.~Pfaeffle.
+\newblock {\em Wave Equations on Lorentzian Manifolds and Quantization}.
+\newblock 2007.
+
+\bibitem{BW_2014}
+D.~Bahns and M.~Wrochna.
+\newblock On-shell extension of distributions.
+\newblock {\em Annales Henri Poincaré}, 15:2045--2067, 2014.
+
+\bibitem{BILAL_2013}
+A.~Bilal and F.~Ferrari.
+\newblock Multi-loop zeta function regularization and spectral cutoff in curved
+  spacetime.
+\newblock {\em Nuclear Physics B}, 877:956--1027, 2013.
+
+\bibitem{BLASCHKE_2008}
+D.~Blaschke.
+\newblock Towards consistent non-commutative gauge theories, 2008.
+
+\bibitem{BG_1972}
+C.~G. Bollini and J.~J. Giambiagi.
+\newblock Dimensional renorinalization : The number of dimensions as a
+  regularizing parameter.
+\newblock {\em Il Nuovo Cimento B}, 12:20--26, 1972.
+
+\bibitem{BOURBAKI_1987}
+N.~Bourbaki.
+\newblock {\em Topological Vector Spaces}.
+\newblock Springer Berlin Heidelberg, 1987.
+
+\bibitem{BDH_2014}
+C.~Brouder, N.~V. Dang, and F.~Hélein.
+\newblock A smooth introduction to the wavefront set.
+\newblock {\em Journal of Physics A: Mathematical and Theoretical}, 47:443001,
+  2014.
+
+\bibitem{BDF_2009}
+R.~Brunetti, M.~Duetsch, and K.~Fredenhagen.
+\newblock Perturbative algebraic quantum field theory and the renormalization
+  groups.
+\newblock {\em Adv. Theor. Math. Phys.}, 2009:1541--1599, 2009.
+
+\bibitem{BF_1997}
+R.~Brunetti and K.~Fredenhagen.
+\newblock Interacting quantum fields on a curved background.
+\newblock 1997.
+
+\bibitem{BF_2000}
+R.~Brunetti and K.~Fredenhagen.
+\newblock Microlocal analysis and interacting quantum field theories:
+  Renormalization on physical backgrounds.
+\newblock {\em Communications in Mathematical Physics}, 208:623--661, 2000.
+
+\bibitem{BFK_1996}
+R.~Brunetti, K.~Fredenhagen, and M.~Koehler.
+\newblock The microlocal spectrum condition and wick polynomials of free fields
+  on curved spacetimes.
+\newblock {\em Communications in Mathematical Physics}, 180:633--652, 1996.
+
+\bibitem{BFLR_2012}
+R.~Brunetti, K.~Fredenhagen, and P.~L. Ribeiro.
+\newblock Algebraic structure of classical field theory i: Kinematics and
+  linearized dynamics for real scalar fields.
+\newblock 2012.
+
+\bibitem{BFV_2003}
+R.~Brunetti, K.~Fredenhagen, and R.~Verch.
+\newblock The generally covariant locality principle -- a new paradigm for
+  local quantum physics.
+\newblock {\em Communications in Mathematical Physics}, 237:31--68, 2003.
+
+\bibitem{BUNCH_1981}
+T.~Bunch.
+\newblock Bphz renormalization of $\lambda\phi^4$ field theory in curved
+  spacetime.
+\newblock {\em Annals of Physics}, 131:118--148, 1981.
+
+\bibitem{CHRISTENSEN_1976}
+S.~M. Christensen.
+\newblock Vacuum expectation value of the stress tensor in an arbitrary curved
+  background: The covariant point-separation method.
+\newblock {\em Physical Review D}, 14:2490--2501, 1976.
+
+\bibitem{CHL_1995}
+J.~Comellas, P.~E. Haagensen, and J.~I. Latorre.
+\newblock A generic renormalization method in curved spaces and at finite
+  temperature.
+\newblock {\em International Journal of Modern Physics A}, 10:2819--2839, 1995.
+
+\bibitem{CONNES_1994}
+A.~Connes.
+\newblock {\em Noncommutative Geometry}.
+\newblock San Diego, Academic Press, 1994.
+
+\bibitem{DANG_2013}
+N.~V. Dang.
+\newblock Renormalization of quantum field theory on curved space-times: a
+  causal approach., 2013.
+
+\bibitem{DANG_2015}
+N.~V. Dang.
+\newblock Complex powers of analytic functions and meromorphic renormalization
+  in qft.
+\newblock 2015.
+
+\bibitem{DEGNER_2013}
+A.~Degner.
+\newblock Properties of states of low energy on cosmological spacetimes, 2013.
+
+\bibitem{DFR_1994}
+S.~Doplicher, K.~Fredenhagen, and J.~E. Roberts.
+\newblock Spacetime quantization induced by classical gravity.
+\newblock 1994.
+
+\bibitem{DHP_2015}
+N.~Drago, T.-P. Hack, and N.~Pinamonti.
+\newblock The generalised principle of perturbative agreement and the thermal
+  mass.
+\newblock 2015.
+
+\bibitem{DV_1999}
+M.~Dubois~Violette.
+\newblock Lectures on graded differential algebras and noncommutative geometry.
+\newblock 1999.
+
+\bibitem{DF_2001}
+M.~Duetsch and K.~Fredenhagen.
+\newblock Algebraic quantum field theory, perturbation theory, and the loop
+  expansion.
+\newblock {\em Communications in Mathematical Physics}, 219:5--30, 2001.
+
+\bibitem{DF_2004}
+M.~Duetsch and K.~Fredenhagen.
+\newblock Causal perturbation theory in terms of retarded products, and a proof
+  of the action ward identity.
+\newblock {\em Reviews in Mathematical Physics}, 16:1291--1348, 2004.
+
+\bibitem{DFKR_2014}
+M.~Duetsch, K.~Fredenhagen, K.~J. Keller, and K.~Rejzner.
+\newblock Dimensional regularization in position space, and a forest formula
+  for epstein-glaser renormalization.
+\newblock {\em Journal of Mathematical Physics}, 55:122303, 2014.
+
+\bibitem{DF_2006}
+Y.~Décanini and A.~Folacci.
+\newblock Off-diagonal coefficients of the dewitt-schwinger and hadamard
+  representations of the feynman propagator.
+\newblock {\em Physical Review D}, 73:044027, 2006.
+
+\bibitem{EG_1973}
+H.~Epstein and V.~Glaser.
+\newblock The role of locality in perturbation theory.
+\newblock {\em Annales de l'institut Henri Poincaré (A) Physique théorique},
+  19:211--295, 1973.
+
+\bibitem{FL_2014}
+K.~Fredenhagen and F.~Lindner.
+\newblock Construction of kms states in perturbative qft and renormalized
+  hamiltonian dynamics.
+\newblock {\em Communications in Mathematical Physics}, 332:895--932, 2014.
+
+\bibitem{FR_2013}
+K.~Fredenhagen and K.~Rejzner.
+\newblock Batalin-vilkovisky formalism in perturbative algebraic quantum field
+  theory.
+\newblock {\em Communications in Mathematical Physics}, 317:697--725, 2013.
+
+\bibitem{FR_2014}
+K.~Fredenhagen and K.~Rejzner.
+\newblock {\em Perturbative algebraic quantum field theory}.
+\newblock 2014.
+
+\bibitem{GBLMV_2002}
+J.~M. Gracia-Bondia, F.~Lizzi, G.~Marmo, and P.~Vitale.
+\newblock Infinitely many star products to play with.
+\newblock {\em Journal of High Energy Physics}, 4:026--026, 2002.
+
+\bibitem{GHP_2015}
+A.~Géré, T.-P. Hack, and N.~Pinamonti.
+\newblock An analytic regularisation scheme on curved spacetimes with
+  applications to cosmological spacetimes.
+\newblock 2015.
+
+\bibitem{GJW_2015}
+A.~Géré, T.~Jurić, and J.-C. Wallet.
+\newblock Noncommutative gauge theories on $\mathbb{R}^3_\lambda$:
+  Perturbatively finite models.
+\newblock 2015.
+
+\bibitem{GVW_2014}
+A.~Géré, P.~Vitale, and J.-C. Wallet.
+\newblock Quantum gauge theories on noncommutative 3-d space.
+\newblock {\em Physical Review D}, 90:045019, 2014.
+
+\bibitem{GW_2015}
+A.~Géré and J.-C. Wallet.
+\newblock Spectral theorem in noncommutative field theories: Jacobi dynamics.
+\newblock {\em J. Phys. Conf. Ser.}, 634:012006, 2014.
+
+\bibitem{HK_1964}
+R.~Haag and D.~Kastler.
+\newblock An algebraic approach to quantum field theory.
+\newblock {\em Journal of Mathematical Physics}, 5:848--861, 1964.
+
+\bibitem{HACK_2010}
+T.-P. Hack.
+\newblock On the backreaction of scalar and spinor quantum fields in curved
+  spacetimes - from the basic foundations to cosmological applications, 2010.
+
+\bibitem{HACK_2015}
+T.-P. Hack.
+\newblock {\em Cosmological Applications of Algebraic Quantum Field Theory in
+  Curved Spacetimes}.
+\newblock Springer Verlag, 2015-06-05.
+
+\bibitem{HV_2012}
+T.-P. Hack and V.~Moretti.
+\newblock On the stress-energy tensor of quantum fields in curved spacetimes -
+  comparison of different regularization schemes and symmetry of the
+  hadamard/seeley - dewitt coefficients.
+\newblock {\em Journal of Physics A: Mathematical and Theoretical}, 45:374019,
+  2012.
+
+\bibitem{HLSJ_2002}
+A.~B. Hammou, M.~Lagraa, and M.~M. Sheikh-Jabbari.
+\newblock Coherent state induced star-product on $\mathbb{R}^3_\lambda$ and the
+  fuzzy sphere.
+\newblock {\em Physical Review D}, 66:025025, 2002.
+
+\bibitem{HLSJS_2002}
+A.~B. Hammou, M.~Lagraa, and M.~M. Sheikh-Jabbari.
+\newblock Coherent state induced star-product on $\mathbb{R}^3_\lambda$ and the
+  fuzzy sphere.
+\newblock {\em Physical Review D}, 66, 2002.
+
+\bibitem{HOLLANDS_2010}
+S.~Hollands.
+\newblock Correlators, feynman diagrams, and quantum no-hair in desitter
+  spacetime.
+\newblock {\em Commun. Math. Phys.}, 319:1--68, 2010.
+
+\bibitem{HW_2001}
+S.~Hollands and R.~M. Wald.
+\newblock Local wick polynomials and time ordered products of quantum fields in
+  curved spacetime.
+\newblock {\em Communications in Mathematical Physics}, 223:289--326, 2001.
+
+\bibitem{HW_2002}
+S.~Hollands and R.~M. Wald.
+\newblock Existence of local covariant time ordered products of quantum fields
+  in curved spacetime.
+\newblock 2002.
+
+\bibitem{HW_2003}
+S.~Hollands and R.~M. Wald.
+\newblock On the renormalization group in curved spacetime.
+\newblock {\em Communications in Mathematical Physics}, 237:123--160, 2003.
+
+\bibitem{HW_2005}
+S.~Hollands and R.~M. Wald.
+\newblock Conservation of the stress tensor in perturbative interacting quantum
+  field theory in curved spacetimes.
+\newblock {\em Reviews in Mathematical Physics}, 17:227--311, 2005.
+
+\bibitem{HORMANDER_1990}
+L.~Hörmander.
+\newblock {\em The Analysis of Linear Partial Differential Operators I}.
+\newblock Springer Berlin Heidelberg, 1990.
+
+\bibitem{IZ_1980}
+C.~Itzykson and J.~B. Zuber.
+\newblock {\em Quantum field theory}.
+\newblock McGraw-Hill International Book Co., 1980.
+
+\bibitem{KAY_2006}
+B.~S. Kay.
+\newblock Quantum field theory in curved spacetime.
+\newblock 2006.
+
+\bibitem{KAY_1991}
+B.~S. Kay and R.~M. Wald.
+\newblock Theorems on the uniqueness and thermal properties of stationary,
+  nonsingular, quasifree states on spacetimes with a bifurcate killing horizon.
+\newblock {\em Physics Reports}, 207:49--136, 1991.
+
+\bibitem{KELLER_2010}
+K.~J. Keller.
+\newblock Dimensional regularization in position space and a forest formula for
+  regularized epstein-glaser renormalization, 2010.
+
+\bibitem{KOSZUL_1960}
+J.~L. Koszul.
+\newblock {\em Lectures on fibre bundles and differential geometry}.
+\newblock Bombay, Tata Institute of Fundamental Research, 1960.
+
+\bibitem{LINDNER_2013}
+F.~Lindner.
+\newblock Perturbative algebraic quantum field theory at finite temperature,
+  2013.
+
+\bibitem{LUSCHER_1982}
+M.~Lüscher.
+\newblock Dimensional regularisation in the presence of large background
+  fields.
+\newblock {\em Annals of Physics}, 142:359--392, 1982.
+
+\bibitem{MADORE_1999}
+J.~Madore.
+\newblock {\em An introduction to noncommutative differential geometry and its
+  physical applications}.
+\newblock Cambridge University Press, 1999.
+
+\bibitem{MVRS_2000}
+S.~Minwalla, M.~V. Raamsdonk, and N.~Seiberg.
+\newblock Noncommutative perturbative dynamics.
+\newblock {\em Journal of High Energy Physics}, 2:020, 2000.
+
+\bibitem{MORETTI_2000}
+V.~Moretti.
+\newblock Proof of the symmetry of the off-diagonal hadamard/seeley-dewitt's
+  coefficients in $c^\infty$ lorentzian manifolds by a local wick rotation.
+\newblock {\em Communications in Mathematical Physics}, 212:165--189, 2000.
+
+\bibitem{MORETTI_2003}
+V.~Moretti.
+\newblock Comments on the stress-energy tensor operator in curved spacetime.
+\newblock {\em Communications in Mathematical Physics}, 232:189--221, 2003.
+
+\bibitem{MORETTI_2013}
+V.~Moretti.
+\newblock {\em Spectral Theory and Quantum Mechanics}.
+\newblock Milan : Springer Verlag, 2013.
+
+\bibitem{ONEIL_1983}
+B.~O'Neill.
+\newblock {\em Semi-Riemannian geometry: with applications to relativity}.
+\newblock Academic Press, 1983.
+
+\bibitem{PV_1949}
+W.~Pauli and F.~Villars.
+\newblock On the invariant regularization in relativistic quantum theory.
+\newblock {\em Reviews of Modern Physics}, 21:434--444, 1949.
+
+\bibitem{PS_1995}
+M.~E. Peskin and D.~V. Schroeder.
+\newblock {\em An Introduction To Quantum Field Theory}.
+\newblock Westview Press, 1995.
+
+\bibitem{PINAMONTI_2011}
+N.~Pinamonti.
+\newblock On the initial conditions and solutions of the semiclassical einstein
+  equations in a cosmological scenario.
+\newblock {\em Communications in Mathematical Physics}, 305:563--604, 2011.
+
+\bibitem{PS_2014}
+N.~Pinamonti and D.~Siemssen.
+\newblock Global existence of solutions of the semiclassical einstein equation
+  for cosmological spacetimes.
+\newblock {\em Communications in Mathematical Physics}, 334:171--191, 2014.
+
+\bibitem{PS_2015}
+N.~Pinamonti and D.~Siemssen.
+\newblock Scale-invariant curvature fluctuations from an extended semiclassical
+  gravity.
+\newblock {\em Journal of Mathematical Physics}, 56:022303, 2015.
+
+\bibitem{PPV_2011}
+E.~Poisson, A.~Pound, and I.~Vega.
+\newblock The motion of point particles in curved spacetime.
+\newblock {\em Living Reviews in Relativity}, 14:7, 2011.
+
+\bibitem{PRANGE_1999}
+D.~Prange.
+\newblock Epstein-glaser renormalization and differential renormalization.
+\newblock {\em Journal of Physics A: Mathematical and General}, 32:2225, 1999.
+
+\bibitem{RADZIKOWSKI_1996}
+M.~J. Radzikowski.
+\newblock Micro-local approach to the hadamard condition in quantum field
+  theory on curved space-time.
+\newblock {\em Communications in Mathematical Physics}, 179:529--553, 1996.
+
+\bibitem{SCHLEMMER_2010}
+J.~Schlemmer.
+\newblock Local thermal equilibrium on cosmological spacetimes, 2010.
+
+\bibitem{SIEMSSEN_2015}
+D.~Siemssen.
+\newblock The semiclassical einstein equation on cosmological spacetimes, 2015.
+
+\bibitem{SPEER_1968}
+E.~R. Speer.
+\newblock Analytic renormalization.
+\newblock {\em Journal of Mathematical Physics}, 9:1404--1410, 1968.
+
+\bibitem{SPEER_1974}
+E.~R. Speer.
+\newblock Analytic renormalization using many space-time dimensions.
+\newblock {\em Communications in Mathematical Physics}, 37:83--92, 1974.
+
+\bibitem{STEINMANN_1971}
+Steinmann.
+\newblock {\em Perturbation Expansions in Axiomatic Field Theory}.
+\newblock Berlin, New York, Springer-Verlag, 1971.
+
+\bibitem{THV_1972}
+G.~'t~Hooft and M.~Veltman.
+\newblock Regularization and renormalization of gauge fields.
+\newblock {\em Nuclear Physics B}, 44:189--213, 1972.
+
+\bibitem{TOMS_1982}
+D.~J. Toms.
+\newblock Renormalization of interacting scalar field theories in curved
+  space-time.
+\newblock {\em Physical Review D}, 26:2713--2729, 1982.
+
+\bibitem{VITALE_2014}
+P.~Vitale.
+\newblock Noncommutative field theory on $\mathbb{R}^3_\lambda$.
+\newblock {\em Fortschritte der Physik}, 62:825--834, 2014.
+
+\bibitem{VW_2013}
+P.~Vitale and J.-C. Wallet.
+\newblock Noncommutative field theories on $\mathbb{R}^3_\lambda$: Towards
+  uv/ir mixing freedom.
+\newblock {\em Journal of High Energy Physics}, 2013:115, 2013.
+
+\bibitem{WALD_1984}
+R.~Wald.
+\newblock {\em General Relativity}.
+\newblock University of Chicago Press, 1984.
+
+\bibitem{WALD_1978}
+R.~M. Wald.
+\newblock Trace anomaly of a conformally invariant quantum field in curved
+  spacetime.
+\newblock {\em Physical Review D}, 17:1477--1484, 1978.
+
+\bibitem{WALLET_2009}
+J.-C. Wallet.
+\newblock Derivations of the moyal algebra and noncommutative gauge theories.
+\newblock {\em Symmetry, Integrability and Geometry: Methods and Applications},
+  5:013, 2009.
+
+\bibitem{WITTEN_1986}
+E.~Witten.
+\newblock Non-commutative geometry and string field theory.
+\newblock {\em Nuclear Physics B}, 268:253--294, 1986.
+
+\bibitem{ZSCHOCHE_2014}
+J.~Zschoche.
+\newblock The chaplygin gas equation of state for the quantized free scalar
+  field on cosmological spacetimes.
+\newblock {\em Annales Henri Poincaré}, 15:1285--1325, 2014.
+
+\end{thebibliography}
