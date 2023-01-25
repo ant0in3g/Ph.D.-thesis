@@ -1,0 +1,68 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Introduction}{7}{chapter*.3}%
+\contentsline {section}{Quantum field theory and regularization}{7}{section*.4}%
+\contentsline {section}{Algebraic quantum field theory}{8}{section*.5}%
+\contentsline {section}{Aspects of quantum field theory on noncommutative spacetimes}{10}{section*.6}%
+\contentsline {chapter}{\numberline {1}Interacting quantum field theory}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Off shell configuration space}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Configuration space of a real scalar field theory}{13}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Topological aspects of the configuration space}{14}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Observables as functionals over field configurations}{15}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Classical free field theory}{18}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Wave front set of a distribution}{21}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Distributions on a manifold}{21}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Schwartz's space and tempered distributions}{23}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Singularities and wave front set}{25}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Formal deformation}{28}{section.1.5}%
+\contentsline {section}{\numberline {1.6}States in algebraic quantum field theory}{29}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Interacting picture}{31}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Enlarged space of observables}{31}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Quantum product among local functionals}{32}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Time ordered product}{34}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Interacting off shell quantum algebra}{36}{subsection.1.7.4}%
+\contentsline {section}{\numberline {1.8}The regularization problem}{40}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Extension up to the total diagonal}{40}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Regularization of numerical distributions}{42}{subsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.2.1}Extensions and Steinmann scaling degree}{42}{subsubsection.1.8.2.1}%
+\contentsline {subsubsection}{\numberline {1.8.2.2}Regularization procedures}{43}{subsubsection.1.8.2.2}%
+\contentsline {subsubsection}{\numberline {1.8.2.3}Extensions of (almost) homogeneous distributions}{46}{subsubsection.1.8.2.3}%
+\contentsline {chapter}{\numberline {2}A covariant regularization scheme}{49}{chapter.2}%
+\contentsline {section}{\numberline {2.1}General regularization framework}{49}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Extensions and scaling degree}{49}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The generalized Euler operator}{52}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Another approach to the regularization problem}{58}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}``Pictorial'' perspective of the time ordered product}{58}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Forest formula for the minimal subtraction scheme}{61}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Time ordered product on the whole spacetime}{65}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}The regularization scheme}{66}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Program}{66}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Regularization of the Feynman propagator}{67}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}The generalized Euler operator in practice}{74}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Properties of the scheme}{77}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Computations in our scheme}{79}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Examples on generic curved spacetime}{79}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}The regularized fish and sunset graphs}{79}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Standard approach}{79}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Alternative computation}{82}{subsubsection.3.1.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}A more complicated graph}{85}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Explicit computations in Friedmann-Lemaître-Robertson-Walker spacetime}{86}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Propagators in Fourier space}{86}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}The regularized fish and sunset graphs in Fourier space}{88}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Strategy}{88}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Explicit computations}{89}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Fourier transform on Minkowski spacetime}{91}{subsubsection.3.2.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Two point function for a quartic potential up to second order}{92}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}More complicated graphs on cosmological spacetimes}{93}{subsection.3.2.4}%
+\contentsline {chapter}{Conclusion}{95}{chapter*.7}%
+\contentsline {chapter}{Acknowledgements}{99}{chapter*.8}%
+\contentsline {chapter}{\numberline {A}Spacetime}{101}{appendix.A}%
+\contentsline {section}{\numberline {A.1}From topology to manifold}{101}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Lorentzian manifold}{103}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Smoothness}{103}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Lorentzian structure}{105}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Integration}{108}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Covariant derivative, geodesic and curvature}{109}{subsection.A.2.4}%
+\contentsline {section}{\numberline {A.3}Causality}{111}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Global hyperbolicity}{111}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Friedmann--Lemaître--Robertson--Walker spacetime}{113}{subsection.A.3.2}%
+\contentsline {chapter}{Bibliography}{113}{subsection.A.3.2}%

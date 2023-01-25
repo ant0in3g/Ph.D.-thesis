@@ -1,0 +1,88 @@
+\contentsline {definition}{{Definition}{1.{1}}{Off shell configuration space}}{14}{definition.1.1}%
+\contentsline {definition}{{Definition}{1.{2}}{Linear functionals}}{15}{definition.1.2}%
+\contentsline {definition}{{Definition}{1.{3}}{Spacetime support}}{16}{definition.1.3}%
+\contentsline {definition}{{Definition}{1.{4}}{Algebra of compactly supported functionals}}{16}{definition.1.4}%
+\contentsline {lemma}{{Lemma}{1.{1}}{``Rigidity'' of the spacetime support}}{16}{lemma.1.1}%
+\contentsline {definition}{{Definition}{1.{5}}{Functional derivative}}{17}{definition.1.5}%
+\contentsline {example}{{Example}{1.{1}}{}}{17}{example.1.1}%
+\contentsline {lemma}{{Lemma}{1.{2}}{}}{18}{lemma.1.2}%
+\contentsline {definition}{{Definition}{1.{6}}{Space of regular functionals}}{18}{definition.1.6}%
+\contentsline {proposition}{{Proposition}{1.{1}}{Relation between the symplectic form and the causal propagator.}}{20}{proposition.1.1}%
+\contentsline {sketch}{{Sketch of the proof}{1.{1}}{}}{20}{sketch.1.1}%
+\contentsline {definition}{{Definition}{1.{7}}{Classical free off shell algebra}}{21}{definition.1.7}%
+\contentsline {example}{{Example}{1.{2}}{}}{22}{example.1.2}%
+\contentsline {lemma}{{Lemma}{1.{3}}{}}{24}{lemma.1.3}%
+\contentsline {definition}{{Definition}{1.{8}}{Wave front set of a numerical distribution}}{25}{definition.1.8}%
+\contentsline {lemma}{{Lemma}{1.{4}}{Properties of the wave front set}}{25}{lemma.1.4}%
+\contentsline {definition}{{Definition}{1.{9}}{Pointwise product of numerical distributions}}{26}{definition.1.9}%
+\contentsline {lemma}{{Lemma}{1.{5}}{Pointwise product of distributions}}{27}{lemma.1.5}%
+\contentsline {definition}{{Definition}{1.{10}}{Quantum regular observable}}{28}{definition.1.10}%
+\contentsline {definition}{{Definition}{1.{11}}{Regular quantum product}}{28}{definition.1.11}%
+\contentsline {definition}{{Definition}{1.{12}}{}}{29}{definition.1.12}%
+\contentsline {definition}{{Definition}{1.{13}}{Quantum free regular off shell algebra}}{29}{definition.1.13}%
+\contentsline {definition}{{Definition}{1.{14}}{Physical system and state}}{30}{definition.1.14}%
+\contentsline {definition}{{Definition}{1.{15}}{State over the free quantum algebra}}{30}{definition.1.15}%
+\contentsline {definition}{{Definition}{1.{16}}{Specific states over the free quantum algebra}}{30}{definition.1.16}%
+\contentsline {definition}{{Definition}{1.{17}}{}}{31}{definition.1.17}%
+\contentsline {example}{{Example}{1.{3}}{}}{33}{example.1.3}%
+\contentsline {definition}{{Definition}{1.{18}}{Quantum free microcausal off shell algebra}}{34}{definition.1.18}%
+\contentsline {example}{{Example}{1.{4}}{}}{34}{example.1.4}%
+\contentsline {definition}{{Definition}{1.{19}}{}}{36}{definition.1.19}%
+\contentsline {example}{{Example}{1.{5}}{}}{36}{example.1.5}%
+\contentsline {definition}{{Definition}{1.{20}}{Axioms of time ordered products}}{37}{definition.1.20}%
+\contentsline {proposition}{{Proposition}{1.{2}}{Interacting quantum algebra}}{38}{proposition.1.2}%
+\contentsline {remark}{{Remark}{1.{1}}{Global view of the construction of the interacting theory}}{38}{remark.1.1}%
+\contentsline {example}{{Example}{1.{6}}{}}{38}{example.1.6}%
+\contentsline {definition}{{Definition}{1.{21}}{}}{42}{definition.1.21}%
+\contentsline {example}{{Example}{1.{7}}{}}{42}{example.1.7}%
+\contentsline {theorem}{{Theorem}{1.{1}}{Existence and uniqueness of an extension}}{43}{theorem.1.1}%
+\contentsline {theorem}{{Theorem}{1.{2}}{Minimal subtraction}}{45}{theorem.1.2}%
+\contentsline {example}{{Example}{1.{8}}{}}{45}{example.1.8}%
+\contentsline {definition}{{Definition}{1.{22}}{}}{46}{definition.1.22}%
+\contentsline {theorem}{{Theorem}{1.{3}}{}}{46}{theorem.1.3}%
+\contentsline {lemma}{{Lemma}{2.{1}}{}}{50}{lemma.2.1}%
+\contentsline {definition}{{Definition}{2.{1}}{}}{51}{definition.2.1}%
+\contentsline {corollary}{{Corollary}{2.{1}}{}}{51}{corollary.2.1}%
+\contentsline {theorem}{{Theorem}{2.{1}}{Cauchy--Riemann criterion}}{52}{theorem.2.1}%
+\contentsline {theorem}{{Theorem}{2.{2}}{Minimal subtraction for complex valued multivariate functions}}{52}{theorem.2.2}%
+\contentsline {definition}{{Definition}{2.{2}}{}}{52}{definition.2.2}%
+\contentsline {lemma}{{Lemma}{2.{2}}{}}{53}{lemma.2.2}%
+\contentsline {sketch}{{Sketch of the proof}{2.{1}}{}}{53}{sketch.2.1}%
+\contentsline {proposition}{{Proposition}{2.{1}}{}}{54}{proposition.2.1}%
+\contentsline {proof}{{Proof}{2.{1}}{}}{55}{proof.2.1}%
+\contentsline {proposition}{{Proposition}{2.{2}}{}}{56}{proposition.2.2}%
+\contentsline {proposition}{{Proposition}{2.{3}}{}}{56}{proposition.2.3}%
+\contentsline {proof}{{Proof}{2.{2}}{}}{57}{proof.2.2}%
+\contentsline {examples}{{Examples}{2.{1}}{}}{60}{examples.2.1}%
+\contentsline {theorem}{{Theorem}{2.{3}}{The regularized time ordered product in the MS scheme}}{62}{theorem.2.3}%
+\contentsline {example}{{Example}{2.{1}}{Triangular graphs}}{63}{example.2.1}%
+\contentsline {example}{{Example}{2.{2}}{A more complicated graph}}{64}{example.2.2}%
+\contentsline {remark}{{Remark}{2.{1}}{}}{68}{remark.2.1}%
+\contentsline {proposition}{{Proposition}{2.{4}}{}}{68}{proposition.2.4}%
+\contentsline {proof}{{Proof}{2.{3}}{}}{68}{proof.2.3}%
+\contentsline {proposition}{{Proposition}{2.{5}}{}}{70}{proposition.2.5}%
+\contentsline {proof}{{Proof}{2.{4}}{}}{71}{proof.2.4}%
+\contentsline {proposition}{{Proposition}{2.{6}}{}}{72}{proposition.2.6}%
+\contentsline {proof}{{Proof}{2.{5}}{}}{72}{proof.2.5}%
+\contentsline {lemma}{{Lemma}{2.{3}}{}}{74}{lemma.2.3}%
+\contentsline {proof}{{Proof}{2.{6}}{}}{74}{proof.2.6}%
+\contentsline {proposition}{{Proposition}{2.{7}}{}}{75}{proposition.2.7}%
+\contentsline {proof}{{Proof}{2.{7}}{}}{75}{proof.2.7}%
+\contentsline {proposition}{{Proposition}{2.{8}}{}}{77}{proposition.2.8}%
+\contentsline {proof}{{Proof}{2.{8}}{}}{77}{proof.2.8}%
+\contentsline {remark}{{Remark}{3.{1}}{}}{80}{remark.3.1}%
+\contentsline {lemma}{{Lemma}{3.{1}}{}}{82}{lemma.3.1}%
+\contentsline {proof}{{Proof}{3.{1}}{}}{83}{proof.3.1}%
+\contentsline {proposition}{{Proposition}{3.{1}}{}}{84}{proposition.3.1}%
+\contentsline {proof}{{Proof}{3.{2}}{}}{84}{proof.3.2}%
+\contentsline {definition}{{Definition}{A.{1}}{Topological space}}{101}{definition.A.1}%
+\contentsline {definition}{{Definition}{A.{2}}{Continuous map and homeomorphism}}{102}{definition.A.2}%
+\contentsline {definition}{{Definition}{A.{3}}{Topological manifold}}{103}{definition.A.3}%
+\contentsline {definition}{{Definition}{A.{4}}{Partition of unity}}{103}{definition.A.4}%
+\contentsline {definition}{{Definition}{A.{5}}{Smooth manifold}}{104}{definition.A.5}%
+\contentsline {definition}{{Definition}{A.{6}}{Smooth map}}{104}{definition.A.6}%
+\contentsline {definition}{{Definition}{A.{7}}{Smooth - compactly supported - function}}{105}{definition.A.7}%
+\contentsline {definition}{{Definition}{A.{8}}{Lorentzian manifold}}{108}{definition.A.8}%
+\contentsline {definition}{{Definition}{A.{9}}{Cauchy surface}}{112}{definition.A.9}%
+\contentsline {definition}{{Definition}{A.{10}}{Curved spacetime}}{113}{definition.A.10}%
+\contentsline {definition}{{Definition}{A.{11}}{Minkowski spacetime}}{113}{definition.A.11}%
