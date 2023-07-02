@@ -1,0 +1,857 @@
+%============================================================================%
+% Antoine Gé́ré (gere@dima.unige.it).
+%============================================================================%
+
+%----------------------------------------------------------------------------%
+
+\documentclass[11pt]{book}
+
+%----------------------------------------------------------------------------%
+
+%a
+\usepackage{amscd}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{array} 
+%b
+\usepackage[english]{babel}
+%c
+\usepackage{cite}
+\usepackage{color}
+%f
+\usepackage{fancyhdr}
+\usepackage{filecontents}
+\usepackage[T1]{fontenc}
+%g
+\usepackage{geometry}
+%h
+\usepackage{hyperref}
+%i
+\usepackage[utf8]{inputenc}
+%
+\usepackage{lmodern}
+%m
+\usepackage{makeidx}
+%n
+\usepackage{ntheorem}
+%r
+\usepackage{ragged2e}
+%u
+\usepackage{upgreek}
+
+%----------------------------------------------------------------------------%
+
+\begin{filecontents}{biblio.bib}
+%
+%
+@article{Duetsch:2002yp,
+      author         = "Duetsch, Michael and Fredenhagen, Klaus",
+      title          = "The Master Ward Identity and generalized Schwinger-Dyson equation in classical field theory",
+      journal        = "Commun.Math.Phys.",
+      volume         = "243",
+      pages          = "275-314",
+      doi            = "10.1007/s00220-003-0968-4",
+      year           = "2003",
+      eprint         = "hep-th/0211242",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-th",
+      reportNumber   = "DESY-02-211",
+      SLACcitation   = "%%CITATION = HEP-TH/0211242;%%",
+}
+%
+%
+@article{Brunetti:2012ar,
+      author         = "Brunetti, Romeo and Fredenhagen, Klaus and Ribeiro, Pedro
+                        Lauridsen",
+      title          = "Algebraic Structure of Classical Field Theory I: Kinematics and Linearized Dynamics for Real Scalar Fields",
+      year           = "2012",
+      eprint         = "1209.2148",
+      archivePrefix  = "arXiv",
+      primaryClass   = "math-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1209.2148;%%",
+}
+%
+%
+@article{Bar:2007zz,
+      author         = "Bar, Christian and Ginoux, Nicolas and Pfaffle, Frank",
+      title          = "Wave equations on Lorenzian manifolds and quantization",
+      journal        = "ESI Lectures in Mathematical Physics. Zürich: European Mathematical Society",
+      pages          = "1-199",
+      doi            = "10.4171/037",
+      year           = "2007",
+      eprint         = "0806.1036",
+      archivePrefix  = "arXiv",
+      primaryClass   = "math.DG",
+      SLACcitation   = "%%CITATION = INSPIRE-773698;%%",
+}
+%
+%
+@book{waldGR,
+      author         = "Wald, R.M.",
+      title          = "General Relativity",
+      publisher      = "University of Chicago Press",
+      year           = "2010",
+      isbn           = "9780226870373",
+      url            =  "http://www.worldcat.org/isbn/0226870332",
+}
+%
+%
+@article{Gere:2015qsa,
+      author         = "Géré, Antoine and Hack, Thomas-Paul and Pinamonti, Nicola",
+      title          = "An analytic regularisation scheme on curved spacetimes with applications to cosmological spacetimes",
+      year           = "2015",
+      eprint         = "1505.00286",
+      archivePrefix  = "arXiv",
+      primaryClass   = "math-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1505.00286;%%",
+}
+%
+%
+@article{Khavkine:2014mta,
+      author         = "Khavkine, Igor and Moretti, Valter",
+      title          = "Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction",
+      year           = "2014",
+      eprint         = "1412.5945",
+      archivePrefix  = "arXiv",
+      primaryClass   = "math-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1412.5945;%%",
+}
+%
+%
+@article{Hack:2010iw,
+      author         = "Hack, Thomas-Paul",
+      title          = "On the Backreaction of Scalar and Spinor Quantum Fields in Curved Spacetimes",
+      year           = "2010",
+      eprint         = "1008.1776",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      reportNumber   = "DESY-THESIS-2010-042",
+      SLACcitation   = "%%CITATION = ARXIV:1008.1776;%%",
+}
+%
+%
+\end{filecontents}
+
+%----------------------------------------------------------------------------%
+
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=20mm,
+bottom=20mm,
+}
+
+%----------------------------------------------------------------------------%
+
+\makeindex
+
+%----------------------------------------------------------------------------%
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\headheight}{22pt} 
+
+\pagestyle{fancy}
+%
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{#1} }
+%
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE,CE]{}
+\fancyhead[LO,CO]{}
+
+\fancypagestyle{plain}{ %
+\fancyhf{}
+}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\supp}{\mathsf{supp}}
+\newcommand{\WF}{\mathsf{WF}}
+
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\sm}[1]{\left\langle#1\right\rangle}
+
+\renewcommand{\det}{\mathsf{det}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Acal}{\mathcal{A}}
+\newcommand{\Bcal}{\mathcal{B}}
+\newcommand{\Ccal}{\mathcal{C}}
+\newcommand{\Dcal}{\mathcal{D}}
+\newcommand{\Ecal}{\mathcal{E}}
+\newcommand{\Fcal}{\mathcal{F}}
+\newcommand{\Gcal}{\mathcal{G}}
+\newcommand{\Hcal}{\mathcal{H}}
+\newcommand{\Ical}{\mathcal{I}}
+\newcommand{\Jcal}{\mathcal{J}}
+\newcommand{\Kcal}{\mathcal{K}}
+\newcommand{\Lcal}{\mathcal{L}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Ncal}{\mathcal{N}}
+\newcommand{\Ocal}{\mathcal{O}}
+\newcommand{\Pcal}{\mathcal{P}}
+\newcommand{\Qcal}{\mathcal{Q}}
+\newcommand{\Rcal}{\mathcal{R}}
+\newcommand{\Scal}{\mathcal{S}}
+\newcommand{\Tcal}{\mathcal{T}}
+\newcommand{\Ucal}{\mathcal{U}}
+\newcommand{\Vcal}{\mathcal{V}}
+\newcommand{\Wcal}{\mathcal{W}}
+\newcommand{\Xcal}{\mathcal{X}}
+\newcommand{\Ycal}{\mathcal{Y}}
+\newcommand{\Zcal}{\mathcal{Z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Abb}{\mathbb{A}}
+\newcommand{\Bmbb}{\mathbb{B}}
+\newcommand{\Cbb}{\mathbb{C}}
+\newcommand{\Dbb}{\mathbb{D}}
+\newcommand{\Ebb}{\mathbb{E}}
+\newcommand{\Fbb}{\mathbb{F}}
+\newcommand{\Gbb}{\mathbb{G}}
+\newcommand{\Hbb}{\mathbb{H}}
+\newcommand{\Ibb}{\mathbb{I}}
+\newcommand{\Jbb}{\mathbb{J}}
+\newcommand{\Kbb}{\mathbb{K}}
+\newcommand{\Lbb}{\mathbb{L}}
+\newcommand{\Mbb}{\mathbb{M}}
+\newcommand{\Nbb}{\mathbb{N}}
+\newcommand{\Obb}{\mathbb{O}}
+\newcommand{\Pbb}{\mathbb{P}}
+\newcommand{\Qbb}{\mathbb{Q}}
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Sbb}{\mathbb{S}}
+\newcommand{\Tbb}{\mathbb{T}}
+\newcommand{\Ubb}{\mathbb{U}}
+\newcommand{\Vbb}{\mathbb{V}}
+\newcommand{\Wbb}{\mathbb{W}}
+\newcommand{\Xbb}{\mathbb{X}}
+\newcommand{\Ybb}{\mathbb{Y}}
+\newcommand{\Zbb}{\mathbb{Z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Arak}{\mathfrak{A}}
+\newcommand{\Brak}{\mathfrak{B}}
+\newcommand{\Crak}{\mathfrak{C}}
+\newcommand{\Drak}{\mathfrak{D}}
+\newcommand{\Erak}{\mathfrak{E}}
+\newcommand{\Frak}{\mathfrak{F}}
+\newcommand{\Grak}{\mathfrak{G}}
+\newcommand{\Hrak}{\mathfrak{H}}
+\newcommand{\Irak}{\mathfrak{I}}
+\newcommand{\Jrak}{\mathfrak{J}}
+\newcommand{\Krak}{\mathfrak{K}}
+\newcommand{\Lrak}{\mathfrak{L}}
+\newcommand{\Mrak}{\mathfrak{M}}
+\newcommand{\Nrak}{\mathfrak{N}}
+\newcommand{\Orak}{\mathfrak{O}}
+\newcommand{\Prak}{\mathfrak{P}}
+\newcommand{\Qrak}{\mathfrak{Q}}
+\newcommand{\Rrak}{\mathfrak{R}}
+\newcommand{\Srak}{\mathfrak{S}}
+\newcommand{\Trak}{\mathfrak{T}}
+\newcommand{\Urak}{\mathfrak{U}}
+\newcommand{\Vrak}{\mathfrak{V}}
+\newcommand{\Wrak}{\mathfrak{W}}
+\newcommand{\Xrak}{\mathfrak{X}}
+\newcommand{\Yrak}{\mathfrak{Y}}
+\newcommand{\Zrak}{\mathfrak{Z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Asf}{\mathsf{A}}
+\newcommand{\Bsf}{\mathsf{B}}
+\newcommand{\Csf}{\mathsf{C}}
+\newcommand{\Dsf}{\mathsf{D}}
+\newcommand{\Esf}{\mathsf{E}}
+\newcommand{\Fsf}{\mathsf{F}}
+\newcommand{\Gsf}{\mathsf{G}}
+\newcommand{\Hsf}{\mathsf{H}}
+\newcommand{\Isf}{\mathsf{I}}
+\newcommand{\Jsf}{\mathsf{J}}
+\newcommand{\Ksf}{\mathsf{K}}
+\newcommand{\Lsf}{\mathsf{L}}
+\newcommand{\Msf}{\mathsf{M}}
+\newcommand{\Nsf}{\mathsf{N}}
+\newcommand{\Osf}{\mathsf{O}}
+\newcommand{\Psf}{\mathsf{P}}
+\newcommand{\Qsf}{\mathsf{Q}}
+\newcommand{\Rsf}{\mathsf{R}}
+\newcommand{\Ssf}{\mathsf{S}}
+\newcommand{\Tsf}{\mathsf{T}}
+\newcommand{\Usf}{\mathsf{U}}
+\newcommand{\Vsf}{\mathsf{V}}
+\newcommand{\Wsf}{\mathsf{W}}
+\newcommand{\Xsf}{\mathsf{X}}
+\newcommand{\Ysf}{\mathsf{Y}}
+\newcommand{\Zsf}{\mathsf{Z}}
+
+\newcommand{\asf}{\mathsf{a}}
+\newcommand{\bsf}{\mathsf{b}}
+\newcommand{\csf}{\mathsf{c}}
+\newcommand{\dsf}{\mathsf{d}}
+\newcommand{\esf}{\mathsf{e}}
+\newcommand{\fsf}{\mathsf{f}}
+\newcommand{\gsf}{\mathsf{g}}
+\newcommand{\hsf}{\mathsf{h}}
+\newcommand{\isf}{\mathsf{i}}
+\newcommand{\jsf}{\mathsf{j}}
+\newcommand{\ksf}{\mathsf{k}}
+\newcommand{\lsf}{\mathsf{l}}
+\newcommand{\msf}{\mathsf{m}}
+\newcommand{\nsf}{\mathsf{n}}
+\newcommand{\osf}{\mathsf{o}}
+\newcommand{\psf}{\mathsf{p}}
+\newcommand{\qsf}{\mathsf{q}}
+\newcommand{\rsf}{\mathsf{r}}
+\newcommand{\ssf}{\mathsf{s}}
+\newcommand{\tsf}{\mathsf{t}}
+\newcommand{\usf}{\mathsf{u}}
+\newcommand{\vsf}{\mathsf{v}}
+\newcommand{\wsf}{\mathsf{w}}
+\newcommand{\xsf}{\mathsf{x}}
+\newcommand{\ysf}{\mathsf{y}}
+\newcommand{\zsf}{\mathsf{z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand*{\makepagetitle}{%
+%
+\thispagestyle{empty}
+%
+\raggedright% 
+%
+\vspace*{44pt}%
+%
+{\LARGE Antoine Géré}\\[\baselineskip]% 
+%
+\vspace*{100pt}%
+%
+{\Huge\bfseries Algebraic and Noncommutative \\[8pt] approaches to Quantum Field Theory}\\[\baselineskip]%
+%
+\vspace*{22pt}%
+%
+{\LARGE Ph.D. thesis}\\[\baselineskip]% 
+%
+\vspace*{44pt}%
+%
+{\LARGE Dipartimento di Matematica}\\[\baselineskip]% 
+%
+{\LARGE Università degli Studi di Genova}\\[\baselineskip]% 
+%
+\vfill% 
+%
+\newpage%
+%
+\thispagestyle{empty}%
+%
+\ \vfill%
+%
+\textbf{Algebraic and Noncommutative approaches to Quantum Field Theory} \\
+Ph.D. thesis submitted by \href{mailto:gere@dima.unige.it}{Antoine Géré} \\
+Genova, ???? 2016 \\[8pt]
+%
+Dipartimento di Matematica \\
+Università degli Studi di Genova \\[8pt]
+%
+Supervisor: \href{mailto:pinamont@dima.unige.it}{Prof. Dr. Nicola Pinamonti} \\
+Examiner: ????
+%
+}%
+
+%----------------------------------------------------------------------------%
+
+\theoremstyle{break}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\newtheorem{definition}{Definition}
+\newtheorem{proof}{Proof}
+
+%----------------------------------------------------------------------------%
+
+\definecolor{hypercolor}{rgb}{0.1,0.2,0.6}
+
+\hypersetup{     
+ unicode=false,      
+ pdftoolbar=true,    
+ pdfmenubar=true,    
+ pdffitwindow=true,  
+ pdfstartview={FitH},
+ pdftitle={PhD thesis},    
+ pdfauthor={Antoine Géré},     
+ pdfsubject={Mathematical Physics},
+ pdfcreator={LaTeX},  
+ pdfproducer={pdfTex},
+ pdfkeywords={Algebraic Quantum Field Theory; Noncommutative Field Theory.},  
+ pdfnewwindow=true,  
+ colorlinks=true, 
+ linkcolor=hypercolor, 
+ urlcolor=hypercolor, 
+ citecolor=hypercolor,
+ filecolor=hypercolor,         
+}
+
+%============================================================================%
+\begin{document}
+%============================================================================%
+
+\justify 
+
+\pagenumbering{Roman}
+
+\makepagetitle
+
+\newpage
+
+%----------------------------------------------------------------------------%
+
+\vspace*{100pt}
+
+\thispagestyle{empty}
+\section*{\centering Abstract}
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+
+\tableofcontents
+
+%----------------------------------------------------------------------------%
+
+\chapter*{Introduction} \label{chp:intro}
+\addcontentsline{toc}{chapter}{Introduction}
+\pagenumbering{arabic}
+
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\part{Mathematical fundations}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\chapter{Functional analysis}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Microlocal analysis}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Operator theory}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Differential geometry}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\part{Space(time)}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\chapter{Lorentzian spacetime}
+%----------------------------------------------------------------------------%
+
+The starting block of our theory is the notion of spacetime, on which the theory is built. A $d$ dimensional spacetime is a Lorentzian manifold of dimension $d$. It endowed with a Lorentzian metric $\gsf$ of signature $(-,+,+,+)$. It will be denoted by $\left(\Mcal,\gsf\right)$. We want causality therefore it is assumed to be globally hyberbolic, it means it admits spacelike Cauchy hypersurfaces. Furthermore we will assume the spacetime to be Hausdorff, connected, smooth, second countable, or equivalently paracompact (i.e. its topology has a countable basis), orientable and time-orientable. We will restrict ourselves to the case of the four dimensional spacetime $\left(\Mcal,\gsf\right)$.\par%
+
+%----------------------------------------------------------------------------%
+\chapter{Noncommutative space}
+%----------------------------------------------------------------------------%
+
+
+%----------------------------------------------------------------------------%
+\part{Algebraic approach to quantum field theory}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\chapter{Free theory}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\section{Functional approach to field theory}
+%----------------------------------------------------------------------------%
+
+
+We will now describe the physcis on the spacetime we introduced previously. One starts to define the off shell space of configuration $\Ecal(\Mcal)$ as the set of all smooth real scalar field $\phi \in \Ccal^\infty\left(\Mcal,\Rbb\right)$. For now we do not implement any dynamic. An important subspace of $\Ecal(\Mcal)$ is the space of compactly supported smooth function $\Dcal(\Mcal)$. Physically speaking assigning a space of configuration to regions of the spacetime, is implementing physical properties to this regions.\par% 
+%
+\begin{definition}[Off shell configuration space]
+The off shell configuration space over $\Mcal$ is 
+%
+\begin{equation*}
+\Ecal(\Mcal) = \left\{ \phi \ \bigg| \ \phi \in \Ccal^\infty, \  \phi : \Mcal \to \Rbb \right\} \ .
+\end{equation*}
+%
+For $\phi \in \Ccal^\infty_0(\Mcal,\Rbb)$, the configuration space is denoted by $\Dcal(\Mcal) \subset \Ecal(\Mcal)$.
+\end{definition}
+
+
+\bigskip
+
+
+Therefore we need a way to measure these physical properties, it is done by introducing the notion of observable. We will call observable a functional which map the fieds to complex numbers%
+%
+\begin{equation*}
+\Fsf : \left\{
+\begin{array}{ccc}
+\Ecal(\Mcal) & \to     & \Cbb \\
+\phi  & \mapsto & \Fsf(\phi)
+\end{array}
+\right. \ .
+\end{equation*}
+%
+We will work with particular sets of functionals, denoted $\Fcal_\sharp$, which will be defined using regularity and support properties. \par%
+
+
+\bigskip
+
+
+We will first look to characterize the regularity of a functional. We would like to choosee $\Fcal_\sharp(\Mcal)$ such that it gives us ``smooth functionals''. Therefore we need a careful definition of differentiability.%
+%
+\begin{definition}[Functional derivatives] \label{def:func-deriv}
+The $n$-th derivative of $\Fsf$ at $\phi\in\Ecal(\Mcal)$ with respect to the directions $\psi_1, \dots, \psi_n \in\Ecal(\Mcal)$ is defined as%
+%
+\begin{equation*}%
+\Fsf(\phi)^{(n)}[\psi_1,\dots ,\psi_n] = \lim_{t \to 0} \ \frac{1}{t} \bigg( \Fsf(\phi_n + t \psi)^{(n-1)}[\psi_1,\dots ,\psi_{n-1}] - \Fsf(\phi)^{(n-1)}[\psi_1,\dots ,\psi_{n-1}] \bigg) \ ,
+\end{equation*}
+%
+whenever the limit exists. We call it smooth if $\Fsf(\phi)^{(n)}[\psi_1,\dots ,\psi_n]$ exists as jointly continuous map from $\Ecal(\Mcal) \times \Ecal(\Mcal)^{\otimes n}$ to $\Cbb$. We denote by $\Fcal^\infty(\Mcal)$ the space of smooth functionals.
+\end{definition}
+%
+A direct consequence from the characterization of smooth functionals in \ref{def:func-deriv} is $\Fsf(\phi)^{(n)}$ is a distribution of compact support on $\Mcal^n$.  Let us illustrate this definition via a simple example.%
+\begin{example}
+%
+Here is the first two derivatives of a ``functional potential'' $\phi^4$. 
+%
+\begin{eqnarray*}
+&& \Vsf(\phi) = \int \dsf x \ \sqrt{\abs{\det(\gsf)}} \ \frac{\lambda(x)}{4!} \phi(x)^4 \ ,\\
+%
+&& \Vsf(\phi)^{(1)}(x) = \frac{\lambda(x)}{3!} \phi(x)^3 \ , \qquad
+%
+\Vsf(\phi)^{(2)}(x,y) = \frac{\lambda(x)}{2!} \phi(x)^2 \delta(x,y) \ .
+\end{eqnarray*}
+%
+\end{example}
+%
+Let us mention the following property.
+%
+\begin{proposition}[Leibniz formula]
+The Leibniz formula still holds in this functional approach.
+%
+\begin{equation*}
+\left(\Fsf \cdot \Gsf\right)(\phi)^{(n)}[\psi_1, \dots ,\phi_n] = \sum_{k=0}^{n} \binom{n}{k} \Fsf(\phi)^{(k)}[\psi_1, \dots , \psi_k] \Gsf(\phi)^{(n-k)}[\psi_1, \dots , \psi_{n-k}] \ .
+\end{equation*}
+%
+\end{proposition}
+%
+%
+We have alrealdy noticed that a derivative of a functional, e.g. $\Fsf(\phi)^{(1)}$, is a distribution. Thus to characterize its regularity we will use the notion of wave front set of a distribution, introduced in the first chapter.%
+
+
+\bigskip
+
+
+One needs to give sense of the localization of an observable in a particular region of the spacetime $\Mcal$. We define for that the spacetime support of an observable. It is the set of points $x \in \Mcal$, such that for all neighborhood $U_x$ of $x$, there is two fields $\phi$ and $\psi$, with the property $\supp\left(\psi\right) \subset U_x$, and $\Fsf(\phi+\psi) \neq \Fsf(\phi)$.
+%
+\begin{definition}[Spacetime support] \label{def:spacetime-supp}
+The spacetime support of an observable $\Fsf \in \Fcal_\sharp$ is
+%
+\begin{equation*}
+\supp(\Fsf) \doteq \left\{ x \in \Mcal \bigg| 
+\begin{array}{l} 
+\forall \ \mbox{neighborhood } U_x \mbox{ of } x, \ \exists \ \phi, \psi \in \Ecal(\Mcal), \\
+\supp(\psi) \subset U_x, \mbox{ such that } \Fsf(\phi + \psi) \neq \Fsf(\phi).
+\end{array}
+\right\} \ .
+\end{equation*}
+%
+\end{definition}
+%
+In other words a functional do not ``feel'' the fields which have support outside its own support.
+
+We denote by $\Fcal_0(\Mcal)$ the functionals with compact spacetime support over $\Mcal$. We follow
+\cite{Brunetti:2012ar} and endow $\Fcal_0(\Mcal)$ with the following algebraic structure.
+%
+\begin{itemize}
+\item Sum : $(\Fsf+\Gsf)(\phi) = \Fsf(\phi) + \Gsf(\phi)$ ;
+\item Pointwise product : $(\Fsf \cdot \Gsf)(\phi) = \Fsf(\phi) \cdot \Gsf(\phi)$ ;
+\item Involution : $\Fsf^\ast(\phi) = \overline{\Fsf(\phi)}$ ;
+\item Multiplication by a scalar $z\in\Cbb$ : $(z \cdot \Fsf)(\phi) = z \Fsf(\phi)$ ;
+\item Unit : $\Ibb = \Fsf(\phi) = 1$.
+\end{itemize}
+%
+A direct consequence is that $\Fcal_0(\Mcal)$ is a commutative unital $\ast$ algebra. And we can check that these algebraic operations do not modify the spacetime support \cite[Lemma 2.3.3]{Brunetti:2012ar}.%
+%
+\begin{lemma}[``Rigidity'' of the spacetime support] \label{lem:spacetime}
+The above algebraic relations do preserve the spacetime support of a functional. In particular we have
+%
+\begin{itemize}
+\item Sum : $\supp(\Fsf + \Gsf) \subseteq \supp(\Fsf) \cup \supp(\Gsf)$ ;
+\item Pointwise product :  $\supp(\Fsf \cdot \Gsf) \subseteq \supp(\Fsf) \cap \supp(\Gsf)$ .
+\end{itemize}
+%
+\end{lemma}
+%
+%
+\begin{proof}
+(blablabla)
+\end{proof}
+%
+It has been proved in \cite[Lemma 2.3.8]{Brunetti:2012ar} that the spacetime support of a functional can be described by its first derivatives.%
+%
+\begin{lemma}[``Characterization'' of the spacetime support]
+If the first derivative of $\Fsf\in\Fcal_0(\Mcal)$ exists, then
+%
+\begin{equation*}
+\supp\left(\Fsf\right) = \overline{\bigcup_{\phi\in\Ecal(\Mcal)} \supp\left(\Fsf^{(1)}(\phi)\right)} \ ,
+\end{equation*}
+%
+with $\supp\left(\Fsf^{(1)}(\phi)\right)$ the usual support of the distribution $(\Fsf^{(1)}(\phi)$.
+\end{lemma}
+%
+\begin{proof}
+(blablabla) 
+\end{proof}
+
+
+\bigskip
+
+
+We now have all the tools to carefully identify the space of functionals which have ``good'' working property. %
+The simplest space is the regular space $\mathcal{F}_\mathsf{reg}(\Mcal)$, it is the space of all smooth functionals, with compactly sumported derivatives and having an empty wave front set. %
+%
+\begin{definition}[Space of regular functionals]
+We define the space of regular functional as follow
+%
+\begin{equation*}
+\Fcal_{\mathsf{reg}}(\Mcal) = \left\{ \Fsf(\phi) \ \bigg| \ \Fsf(\phi) \in \Fcal^\infty(\Mcal), \ \Fsf(\phi)^{(n)} \in \Ecal^\prime(\Mcal^{\otimes n}), \mbox{ and } \ \WF(\Fsf(\phi)^{(n)}) = \emptyset \right\} \ ,
+\end{equation*}
+%
+with $\phi$ a test function, i.e. element of $\Ecal(\Mcal)$. 
+\end{definition}
+%
+However it does not contain the interaction functionals, those functionals that we would like to work with. Therefore we have to impose a less restrictive condition on the wave front set, we set that the wave front set of $F^{(n)}$ does not intersect the set $\mathcal{M} \times (\overline{V^n_+} \cup \overline{V^n_-})$ where $\overline{V_\pm}$ denotes the closed forward and backward light cone, respectively. It forms the space of microcausal functional $\mathcal{F}_\mathsf{\mu c}(\Mcal)$.%
+%
+\begin{definition}[Space of microcausal functional]
+We define the space of microcausal functional as follow
+%
+\begin{equation*}
+\Fcal_{\mu\csf}(\Mcal) = \left\{ 
+\Fsf(\phi) \ \bigg| \ 
+\begin{array}{l}
+\Fsf(\phi) \in \Fcal^\infty(\Mcal), \ \Fsf(\phi)^{(n)} \in \Ecal^\prime(\Mcal^{\otimes n}) \\
+\mbox{ and } \ \WF(\Fsf^{(n)}(\phi)) \cap \left( \Mcal^n \times ( \overline{V^{n}_{+}} \cup \overline{V^{n}_{-}} ) \right)  = \emptyset 
+\end{array}
+\right\} \ .
+\end{equation*}
+%
+\end{definition}
+%
+This space contains the interactions functionals but not only. For instance the regular functionals are still contained in it. The space which contains only the interaction functionals is called the local space $\mathcal{F}_\mathsf{loc}$. We define it as the space of microcausal functionals having as support for their derivatives the small diagonal, $d_n = \left\{ (x,\dots,x) \subset \Mcal^n \right\}$.%
+%
+\begin{definition}[Space of local functional]
+The local functionals are a subspace of microcausal functionals $\Fcal_{\mathsf{\mu c}}(\Mcal)$ defined as follow
+%
+\begin{equation*}
+\Fcal_{\mathsf{loc}}(\Mcal) = \left\{ \Fsf(\phi) \in \Fcal_{\mu\csf}(\phi) \ \bigg| \ \supp\left(\Fsf(\phi)^{(n)}\right) \subset d_n = \left\{ (x,\dots,x) \subset \Mcal^n \right\} \right\} \subset \Fcal_{\mu\csf}(\Mcal) \ .
+\end{equation*}
+%
+\end{definition}
+%
+We can define $\Fcal_{\mathsf{loc}}(\Mcal)$ by imposing the additivity property. And in this case the definition \ref{def:spacetime-supp} becomes natural.
+%
+\begin{definition}[Additivity]
+A functional $\Fsf(\phi) \in \Fcal_0(\Mcal)$ is said to be additive if for all $\phi, \psi, \chi \in \Ecal(\Mcal)$ and $\supp(\phi) \cap \supp(\chi) = \emptyset$ we have 
+%
+\begin{equation*}
+\Fsf(\phi + \psi + \chi) = \Fsf(\phi + \psi) - \Fsf(\psi) + \Fsf(\psi + \chi) \ . 
+\end{equation*}
+%
+\end{definition}
+%
+%
+From this definition it follows
+%
+\begin{lemma}[Locality via the additivity condition]
+If $\Fsf\phi)$ is additive, then
+\begin{equation*}
+\Fsf(\phi + \psi + \chi)^{(n)}[\gamma_1,...,\gamma_n] = \Fsf(\phi + \psi)^{(n)}[\gamma_1,...,\gamma_n] - \Fsf(\psi)^{(n)} + \Fsf(\psi + \chi)^{(n)}[\gamma_1,...,\gamma_n] \ . 
+\end{equation*}
+and in particular if furthermore $\WF\left(\Fsf(\phi)^{(n)}\right) \perp Td_n$, we have that the derivatives $F(\phi)^{(n)}$ have support on the small diagonal $d_n$. 
+\end{lemma}
+%
+\begin{proof}
+(blablabla)
+\end{proof}
+
+%
+An interesting property for additive functional is the following one \cite[Lemma 2.3.5]{Brunetti:2012ar}.
+%
+\begin{lemma}[Decomposition of additive functionals]
+Any additive functional $\Fsf(\phi)$ can be decomposed as a finite sum of additive functionals with arbitrarily small spacetime support.
+\end{lemma}
+%
+\begin{proof}
+proof
+\end{proof}
+%
+The study of these additive functionals is motivated by the fact that the renormalization freedom will correspond to this type of term.
+
+
+%----------------------------------------------------------------------------%
+\section{Classical field theory}
+%----------------------------------------------------------------------------%
+
+After having introduce the fucntional approach which will be used here, we formulate the clasical field theory. We work with scalar fields on curved spacetime, therefore we have as equation of motion the generalised Klein Gordon eqation.%
+%
+\begin{equation}
+\Psf \phi = \left( \Box + \xi \Rsf + m^2 \right) \phi = 0 \ , 
+\label{eq:klein-gordon}
+\end{equation}
+%
+with $m$ the (positive real) mass of the theory, $\xi \in \Rbb$, and $\Rsf$ the scalar curvature. We required in the case of vanishing curvature \eqref{eq:klein-gordon} reduces to the Klein Gordon equation of the free scalar field theory on Minkowski spacetime. The case $\xi=0$ is called minimal coupling, and $\xi=\frac16$ the conformally coupling \cite[Appendix D]{waldGR}.\par%
+
+
+\bigskip
+
+
+The spacetime $\Mcal$ we considere is globally hyperbolic therefore the differential equation \eqref{eq:klein-gordon} admit unique solution once we give sufficient data condition. It has been shown in \cite[section 3]{Bar:2007zz} that the operator $\Psf$ has unique retarded and advanced fundamental solutions. We will denote by $\Hsf_\asf$ (respectively $\Hsf_\rsf$) the fundamental advanced solution (respectively the retarded solution). They are maps from $\Ccal^\infty_0(\Mcal)$ to $\Ccal^\infty(\Mcal)$, and%
+%
+\begin{equation*}
+\supp\left( \Hsf_{\asf/\rsf} f \right) \subset J^{\pm}\left(\supp\left(f\right),\Mcal\right) \ , \ \ f \in \Ccal^\infty_0(\Mcal) \ . 
+\end{equation*}
+%
+From this fundamental solutions we defined 
+
+%----------------------------------------------------------------------------%
+\section{Quantization via formal deformation}
+%----------------------------------------------------------------------------%
+
+
+(blablabla)
+
+
+%----------------------------------------------------------------------------%
+\chapter{Interacting quantum field theory}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{An analytic regularisation scheme on curved spacetimes}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\section{Epstein Glaser}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\section{Analytic regularistion of time–ordered products and the minimal subtraction scheme}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\section{Analytic regularisation of the Feynman propagator}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\section{Generalised Euler operators and principal parts of homogeneous expansions}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\section{Properties of the minimal subtraction scheme}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Few applications}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\part{Noncommutative approach to field theory}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\chapter{Scalar theory}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Gauge theory}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+
+\chapter*{Conclusion} \label{chp:conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+%----------------------------------------------------------------------------%
+
+\newpage
+\vspace*{100pt}
+\thispagestyle{empty}
+\section*{Acknowledgements}
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+
+(blablabla) \index{(blablabla)}
+
+%----------------------------------------------------------------------------%
+
+\nocite{*}
+
+\bibliographystyle{abbrv}
+
+\bibliography{biblio}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+
+%----------------------------------------------------------------------------%
+
+\backmatter
+
+\printindex
+
+\addcontentsline{toc}{chapter}{Index}
+
+%============================================================================%
+\end{document}
+%============================================================================%

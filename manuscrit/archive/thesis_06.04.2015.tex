@@ -1,0 +1,185 @@
+%============================================================================%
+% Antoine Gé́ré (gere@dima.unige.it).
+%============================================================================%
+
+%-- BIBLIOGRAPHY ------------------------------------------------------------%
+
+\begin{filecontents}{biblio.bib}
+%
+%
+@article{Hollands:2014eia,
+      author         = "Hollands, Stefan and Wald, Robert M.",
+      title          = "{Quantum fields in curved spacetime}",
+      journal        = "Phys.Rept.",
+      volume         = "574",
+      pages          = "1-35",
+      doi            = "10.1016/j.physrep.2015.02.001",
+      year           = "2015",
+      eprint         = "1401.2026",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1401.2026;%%",
+}
+%
+%
+\end{filecontents}
+
+%-- DOCUMENT CLASS ----------------------------------------------------------%
+
+\documentclass[a4paper]{book}
+
+%-- PACKAGES ----------------------------------------------------------------%
+
+%a
+%\usepackage{amscd}
+%\usepackage{amsmath}
+%\usepackage{amsthm}
+%\usepackage{amssymb}
+%\usepackage{amsxtra}
+%\usepackage{array} 
+%b
+\usepackage[english]{babel}
+%\usepackage{blindtext}
+%c
+%\usepackage{cancel}
+%\usepackage{cite}
+\usepackage{color}
+%e
+%\usepackage{enumitem}
+%f
+%\usepackage{fancyhdr}
+%\usepackage[T1]{fontenc}
+%g
+%\usepackage{geometry} 
+%\usepackage{graphicx}
+%h
+\usepackage{hyperref}
+%i
+\usepackage[utf8]{inputenc} 
+%n
+%\usepackage{natbib}
+%t
+%\usepackage{tikz}
+%\usepackage{titlesec}
+%
+%\usepackage{url}
+
+%-- HYPERREF ----------------------------------------------------------------%
+
+\definecolor{hypercolor}{rgb}{0.1,0.2,0.6}
+
+\hypersetup{     
+ unicode=false,      
+ pdftoolbar=true,    
+ pdfmenubar=true,    
+ pdffitwindow=true,  
+ pdfstartview={FitH},
+ pdftitle={PhD thesis},    
+ pdfauthor={Antoine Géré},     
+ pdfsubject={Mathematical Physics},
+ pdfcreator={LaTeX},  
+ pdfproducer={pdfTex},
+ pdfkeywords={Algebraic Quantum Field Theory; Noncommutative Field Theory.},  
+ pdfnewwindow=true,  
+ colorlinks=true, 
+ linkcolor=hypercolor, 
+ urlcolor=hypercolor, 
+ citecolor=hypercolor,
+ filecolor=hypercolor,         
+}
+
+%-- STYLE -------------------------------------------------------------------%
+
+%\usepackage[Sonny]{fncychap}
+%\usepackage[Lenny]{fncychap}
+%\usepackage[Glenn]{fncychap}
+%\usepackage[Conny]{fncychap}
+%\usepackage[Rejne]{fncychap}
+%\usepackage[Bjarne]{fncychap}
+%\usepackage[Bjornstrup]{fncychap}
+
+%\titleformat{<command>}[<shape>]{<format>}{<label>}{<sep>}{<before-code>}[<after-code>]
+%\titlespacing{<command>}{<left>}{<before-sep>}{<after-sep>}
+
+%<command> is the sectioning command to be redefined: \part, \chapter, \section, \subsection, \subsubsection, \paragraph or \subparagraph.
+%<shape> is sectioning paragraph shape; possible values are: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame.
+%<format> is the format to be applied to the title, label, and text; for example \normalfont\Large\bfseries.
+%<label> specify sectioning label.
+%<sep> is the horizontal separation between label and title body and it must be a length and not be empty.
+%<before-code> is code preceding the title body.
+%<after-code> is code following the title body. 
+%<left> increases the left margin.
+%<before-sep> is the vertical space before the title.
+%<after-sep> is the separation between title and non-sectioning text. 
+
+\newcommand*{\mypagetitle}{%
+%
+\raggedright% 
+%
+\vspace*{44pt}%
+%
+{\LARGE Antoine Géré}\\[\baselineskip]% 
+%
+\vspace*{100pt}%
+%
+{\Huge\bfseries blablabla%
+%Algebraic and Noncommutative \\[8pt] approaches to Quantum Field Theory%
+}\\[\baselineskip]%
+%
+\vspace*{22pt}%
+%
+{\LARGE Ph.D. thesis}\\[\baselineskip]% 
+%
+\vspace*{44pt}%
+%
+{\LARGE Dipartimento di Matematica}\\[\baselineskip]% 
+%
+{\LARGE Università degli Studi di Genova}\\[\baselineskip]% 
+%
+\vfill % 
+%
+}%
+
+%============================================================================%
+\begin{document}
+%============================================================================%
+
+%\mypagetitle
+
+%----------------------------------------------------------------------------%
+
+\tableofcontents
+
+%----------------------------------------------------------------------------%
+\chapter{Introduction}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Space(time)}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Free quantum field theory}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\chapter{Interacting quantum field theory}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+
+\bibliographystyle{plain}
+
+\bibliography{biblio}
+
+%============================================================================%
+\end{document}
+%============================================================================%

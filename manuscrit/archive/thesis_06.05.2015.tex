@@ -1,0 +1,281 @@
+%============================================================================%
+% Antoine Gé́ré (gere@dima.unige.it).
+%============================================================================%
+
+%----------------------------------------------------------------------------%
+
+\begin{filecontents}{biblio.bib}
+%
+%
+@article{Hollands:2014eia,
+      author         = "Hollands, Stefan and Wald, Robert M.",
+      title          = "Quantum fields in curved spacetime",
+      journal        = "Phys.Rept.",
+      volume         = "574",
+      pages          = "1-35",
+      doi            = "10.1016/j.physrep.2015.02.001",
+      year           = "2015",
+      eprint         = "1401.2026",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1401.2026;%%",
+}
+%
+%
+\end{filecontents}
+
+%----------------------------------------------------------------------------%
+
+\documentclass[a4paper]{article}
+
+%----------------------------------------------------------------------------%
+
+%a
+\usepackage{amscd}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{array} 
+%b
+\usepackage[english]{babel}
+%c
+\usepackage{color}
+%f
+\usepackage[T1]{fontenc}
+%h
+\usepackage{hyperref}
+%i
+\usepackage[utf8]{inputenc} 
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Acal}{\mathcal{A}}
+\newcommand{\Bcal}{\mathcal{B}}
+\newcommand{\Ccal}{\mathcal{C}}
+\newcommand{\Dcal}{\mathcal{D}}
+\newcommand{\Ecal}{\mathcal{E}}
+\newcommand{\Fcal}{\mathcal{F}}
+\newcommand{\Gcal}{\mathcal{G}}
+\newcommand{\Hcal}{\mathcal{H}}
+\newcommand{\Ical}{\mathcal{I}}
+\newcommand{\Jcal}{\mathcal{J}}
+\newcommand{\Kcal}{\mathcal{K}}
+\newcommand{\Lcal}{\mathcal{L}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Ncal}{\mathcal{N}}
+\newcommand{\Ocal}{\mathcal{O}}
+\newcommand{\Pcal}{\mathcal{P}}
+\newcommand{\Qcal}{\mathcal{Q}}
+\newcommand{\Rcal}{\mathcal{R}}
+\newcommand{\Scal}{\mathcal{S}}
+\newcommand{\Tcal}{\mathcal{T}}
+\newcommand{\Ucal}{\mathcal{U}}
+\newcommand{\Vcal}{\mathcal{V}}
+\newcommand{\Wcal}{\mathcal{W}}
+\newcommand{\Xcal}{\mathcal{X}}
+\newcommand{\Ycal}{\mathcal{Y}}
+\newcommand{\Zcal}{\mathcal{Z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Abb}{\mathbb{A}}
+\newcommand{\Bmbb}{\mathbb{B}}
+\newcommand{\Cbb}{\mathbb{C}}
+\newcommand{\Dbb}{\mathbb{D}}
+\newcommand{\Ebb}{\mathbb{E}}
+\newcommand{\Fbb}{\mathbb{F}}
+\newcommand{\Gbb}{\mathbb{G}}
+\newcommand{\Hbb}{\mathbb{H}}
+\newcommand{\Ibb}{\mathbb{I}}
+\newcommand{\Jbb}{\mathbb{J}}
+\newcommand{\Kbb}{\mathbb{K}}
+\newcommand{\Lbb}{\mathbb{L}}
+\newcommand{\Mbb}{\mathbb{M}}
+\newcommand{\Nbb}{\mathbb{N}}
+\newcommand{\Obb}{\mathbb{O}}
+\newcommand{\Pbb}{\mathbb{P}}
+\newcommand{\Qbb}{\mathbb{Q}}
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Sbb}{\mathbb{S}}
+\newcommand{\Tbb}{\mathbb{T}}
+\newcommand{\Ubb}{\mathbb{U}}
+\newcommand{\Vbb}{\mathbb{V}}
+\newcommand{\Wbb}{\mathbb{W}}
+\newcommand{\Xbb}{\mathbb{X}}
+\newcommand{\Ybb}{\mathbb{Y}}
+\newcommand{\Zbb}{\mathbb{Z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Arak}{\mathfrak{A}}
+\newcommand{\Brak}{\mathfrak{B}}
+\newcommand{\Crak}{\mathfrak{C}}
+\newcommand{\Drak}{\mathfrak{D}}
+\newcommand{\Erak}{\mathfrak{E}}
+\newcommand{\Frak}{\mathfrak{F}}
+\newcommand{\Grak}{\mathfrak{G}}
+\newcommand{\Hrak}{\mathfrak{H}}
+\newcommand{\Irak}{\mathfrak{I}}
+\newcommand{\Jrak}{\mathfrak{J}}
+\newcommand{\Krak}{\mathfrak{K}}
+\newcommand{\Lrak}{\mathfrak{L}}
+\newcommand{\Mrak}{\mathfrak{M}}
+\newcommand{\Nrak}{\mathfrak{N}}
+\newcommand{\Orak}{\mathfrak{O}}
+\newcommand{\Prak}{\mathfrak{P}}
+\newcommand{\Qrak}{\mathfrak{Q}}
+\newcommand{\Rrak}{\mathfrak{R}}
+\newcommand{\Srak}{\mathfrak{S}}
+\newcommand{\Trak}{\mathfrak{T}}
+\newcommand{\Urak}{\mathfrak{U}}
+\newcommand{\Vrak}{\mathfrak{V}}
+\newcommand{\Wrak}{\mathfrak{W}}
+\newcommand{\Xrak}{\mathfrak{X}}
+\newcommand{\Yrak}{\mathfrak{Y}}
+\newcommand{\Zrak}{\mathfrak{Z}}
+
+%----------------------------------------------------------------------------%
+
+\newcommand{\Asf}{\mathsf{A}}
+\newcommand{\Bsf}{\mathsf{B}}
+\newcommand{\Csf}{\mathsf{C}}
+\newcommand{\Dsf}{\mathsf{D}}
+\newcommand{\Esf}{\mathsf{E}}
+\newcommand{\Fsf}{\mathsf{F}}
+\newcommand{\Gsf}{\mathsf{G}}
+\newcommand{\Hsf}{\mathsf{H}}
+\newcommand{\Isf}{\mathsf{I}}
+\newcommand{\Jsf}{\mathsf{J}}
+\newcommand{\Ksf}{\mathsf{K}}
+\newcommand{\Lsf}{\mathsf{L}}
+\newcommand{\Msf}{\mathsf{M}}
+\newcommand{\Nsf}{\mathsf{N}}
+\newcommand{\Osf}{\mathsf{O}}
+\newcommand{\Psf}{\mathsf{P}}
+\newcommand{\Qsf}{\mathsf{Q}}
+\newcommand{\Rsf}{\mathsf{R}}
+\newcommand{\Ssf}{\mathsf{S}}
+\newcommand{\Tsf}{\mathsf{T}}
+\newcommand{\Usf}{\mathsf{U}}
+\newcommand{\Vsf}{\mathsf{V}}
+\newcommand{\Wsf}{\mathsf{W}}
+\newcommand{\Xsf}{\mathsf{X}}
+\newcommand{\Ysf}{\mathsf{Y}}
+\newcommand{\Zsf}{\mathsf{Z}}
+
+\newcommand{\asf}{\mathsf{a}}
+\newcommand{\bsf}{\mathsf{b}}
+\newcommand{\csf}{\mathsf{c}}
+\newcommand{\dsf}{\mathsf{d}}
+\newcommand{\esf}{\mathsf{e}}
+\newcommand{\fsf}{\mathsf{f}}
+\newcommand{\gsf}{\mathsf{g}}
+\newcommand{\hsf}{\mathsf{h}}
+\newcommand{\isf}{\mathsf{i}}
+\newcommand{\jsf}{\mathsf{j}}
+\newcommand{\ksf}{\mathsf{k}}
+\newcommand{\lsf}{\mathsf{l}}
+\newcommand{\msf}{\mathsf{m}}
+\newcommand{\nsf}{\mathsf{n}}
+\newcommand{\osf}{\mathsf{o}}
+\newcommand{\psf}{\mathsf{p}}
+\newcommand{\qsf}{\mathsf{q}}
+\newcommand{\rsf}{\mathsf{r}}
+\newcommand{\ssf}{\mathsf{s}}
+\newcommand{\tsf}{\mathsf{t}}
+\newcommand{\usf}{\mathsf{u}}
+\newcommand{\vsf}{\mathsf{v}}
+\newcommand{\wsf}{\mathsf{w}}
+\newcommand{\xsf}{\mathsf{x}}
+\newcommand{\ysf}{\mathsf{y}}
+\newcommand{\zsf}{\mathsf{z}}
+
+%----------------------------------------------------------------------------%
+
+\definecolor{hypercolor}{rgb}{0.1,0.2,0.6}
+
+\hypersetup{     
+ unicode=false,      
+ pdftoolbar=true,    
+ pdfmenubar=true,    
+ pdffitwindow=true,  
+ pdfstartview={FitH},
+ pdftitle={PhD thesis},    
+ pdfauthor={Antoine Géré},     
+ pdfsubject={Mathematical Physics},
+ pdfcreator={LaTeX},  
+ pdfproducer={pdfTex},
+ pdfkeywords={Algebraic Quantum Field Theory; Noncommutative Field Theory.},  
+ pdfnewwindow=true,  
+ colorlinks=true, 
+ linkcolor=hypercolor, 
+ urlcolor=hypercolor, 
+ citecolor=hypercolor,
+ filecolor=hypercolor,         
+}
+
+%============================================================================%
+\begin{document}
+%============================================================================%
+
+%\mypagetitle
+
+%----------------------------------------------------------------------------%
+
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------%
+\newpage
+\section{To do!}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\newpage
+\section{Free quantum field theory} \label{chp:freeQFT}
+%----------------------------------------------------------------------------%
+
+\begin{itemize}
+\item off-shell functional approach
+\item configuration space
+\item observables as functionals
+\item def. functional derivative (Taylor’s formula + Leibniz)
+\item support of a functional
+\item classical field theory
+\item eq. of motion $\to$ advanced / retarded fundamental solution $\to$ causal propagator
+\end{itemize}
+
+
+\subsection{spacetime}
+
+The $d$ dimensionnal Lorentzian manifold will be then denoted by $(\Mcal,\gsf)$. To conserve the causality the manifold is assumed to be globally hyperbolic, it means it admits spacelike Cauchy hypersurfaces, furthermore we will assume $\Mcal$ to be a Hausdorff, connected, and smooth. manifold on $\Mcal$, endowed with a Lorentzian metric $\gsf$. We also require that $\Mcal$ has to be second countable, or equivalently paracompact, i.e. its topology has a countable basis, and orientable and time-orientable.
+
+\noindent
+\textbf{look at Daniel's thesis chapter I.} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TODO
+
+\subsection{functional approach}
+
+
+%----------------------------------------------------------------------------%
+\newpage
+\section{Interacting quantum field theory} \label{chp:intQFT}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+
+\newpage
+
+\bibliographystyle{plain}
+
+\bibliography{biblio}
+
+%============================================================================%
+\end{document}
+%============================================================================%

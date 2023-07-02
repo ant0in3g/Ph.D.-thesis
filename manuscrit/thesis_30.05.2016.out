@@ -1,0 +1,67 @@
+\BOOKMARK [0][-]{chapter*.3}{Introduction}{}% 1
+\BOOKMARK [1][-]{section*.4}{Quantum field theory and regularization}{chapter*.3}% 2
+\BOOKMARK [1][-]{section*.5}{Algebraic quantum field theory}{chapter*.3}% 3
+\BOOKMARK [1][-]{section*.6}{Aspects of quantum field theory on noncommutative spacetimes}{chapter*.3}% 4
+\BOOKMARK [0][-]{chapter.1}{Interacting quantum field theory}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Off shell configuration space}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{Configuration space of a real scalar field theory}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Topological aspects of the configuration space}{section.1.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Observables as functionals over field configurations}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Classical free field theory}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{Wave front set of a distribution}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{Distributions on a manifold}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Schwartz's space and tempered distributions}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.3}{Singularities and wave front set}{section.1.4}% 14
+\BOOKMARK [1][-]{section.1.5}{Formal deformation}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.6}{States in algebraic quantum field theory}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.7}{Interacting picture}{chapter.1}% 17
+\BOOKMARK [2][-]{subsection.1.7.1}{Enlarged space of observables}{section.1.7}% 18
+\BOOKMARK [2][-]{subsection.1.7.2}{Quantum product among local functionals}{section.1.7}% 19
+\BOOKMARK [2][-]{subsection.1.7.3}{Time ordered product}{section.1.7}% 20
+\BOOKMARK [2][-]{subsection.1.7.4}{Interacting off shell quantum algebra}{section.1.7}% 21
+\BOOKMARK [1][-]{section.1.8}{The regularization problem}{chapter.1}% 22
+\BOOKMARK [2][-]{subsection.1.8.1}{Extension up to the total diagonal}{section.1.8}% 23
+\BOOKMARK [2][-]{subsection.1.8.2}{Regularization of numerical distributions}{section.1.8}% 24
+\BOOKMARK [3][-]{subsubsection.1.8.2.1}{Extensions and Steinmann scaling degree}{subsection.1.8.2}% 25
+\BOOKMARK [3][-]{subsubsection.1.8.2.2}{Regularization procedures}{subsection.1.8.2}% 26
+\BOOKMARK [3][-]{subsubsection.1.8.2.3}{Extensions of \(almost\) homogeneous distributions}{subsection.1.8.2}% 27
+\BOOKMARK [0][-]{chapter.2}{A covariant regularization scheme}{}% 28
+\BOOKMARK [1][-]{section.2.1}{General regularization framework}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.1.1}{Extensions and scaling degree}{section.2.1}% 30
+\BOOKMARK [2][-]{subsection.2.1.2}{The generalized Euler operator}{section.2.1}% 31
+\BOOKMARK [1][-]{section.2.2}{Another approach to the regularization problem}{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.2.1}{``Pictorial'' perspective of the time ordered product}{section.2.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.2}{Forest formula for the minimal subtraction scheme}{section.2.2}% 34
+\BOOKMARK [2][-]{subsection.2.2.3}{Time ordered product on the whole spacetime}{section.2.2}% 35
+\BOOKMARK [1][-]{section.2.3}{The regularization scheme}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.3.1}{Program}{section.2.3}% 37
+\BOOKMARK [2][-]{subsection.2.3.2}{Regularization of the Feynman propagator}{section.2.3}% 38
+\BOOKMARK [2][-]{subsection.2.3.3}{The generalized Euler operator in practice}{section.2.3}% 39
+\BOOKMARK [1][-]{section.2.4}{Properties of the scheme}{chapter.2}% 40
+\BOOKMARK [0][-]{chapter.3}{Computations in our scheme}{}% 41
+\BOOKMARK [1][-]{section.3.1}{Examples on generic curved spacetime}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.1.1}{The regularized fish and sunset graphs}{section.3.1}% 43
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{Standard approach}{subsection.3.1.1}% 44
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{Alternative computation}{subsection.3.1.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.2}{A more complicated graph}{section.3.1}% 46
+\BOOKMARK [1][-]{section.3.2}{Explicit computations in Friedmann-Lema\356tre-Robertson-Walker spacetime}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.2.1}{Propagators in Fourier space}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.2}{The regularized fish and sunset graphs in Fourier space}{section.3.2}% 49
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Strategy}{subsection.3.2.2}% 50
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{Explicit computations}{subsection.3.2.2}% 51
+\BOOKMARK [3][-]{subsubsection.3.2.2.3}{Fourier transform on Minkowski spacetime}{subsection.3.2.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.3}{Two point function for a quartic potential up to second order}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.4}{More complicated graphs on cosmological spacetimes}{section.3.2}% 54
+\BOOKMARK [0][-]{chapter*.7}{Conclusion}{}% 55
+\BOOKMARK [0][-]{chapter*.8}{Acknowledgements}{}% 56
+\BOOKMARK [0][-]{appendix.A}{Spacetime}{}% 57
+\BOOKMARK [1][-]{section.A.1}{From topology to manifold}{appendix.A}% 58
+\BOOKMARK [1][-]{section.A.2}{Lorentzian manifold}{appendix.A}% 59
+\BOOKMARK [2][-]{subsection.A.2.1}{Smoothness}{section.A.2}% 60
+\BOOKMARK [2][-]{subsection.A.2.2}{Lorentzian structure}{section.A.2}% 61
+\BOOKMARK [2][-]{subsection.A.2.3}{Integration}{section.A.2}% 62
+\BOOKMARK [2][-]{subsection.A.2.4}{Covariant derivative, geodesic and curvature}{section.A.2}% 63
+\BOOKMARK [1][-]{section.A.3}{Causality}{appendix.A}% 64
+\BOOKMARK [2][-]{subsection.A.3.1}{Global hyperbolicity}{section.A.3}% 65
+\BOOKMARK [2][-]{subsection.A.3.2}{Friedmann\205Lema\356tre\205Robertson\205Walker spacetime}{section.A.3}% 66
+\BOOKMARK [0][-]{appendix*.9}{Bibliography}{}% 67

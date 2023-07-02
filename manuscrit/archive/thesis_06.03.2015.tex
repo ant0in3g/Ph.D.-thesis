@@ -1,0 +1,195 @@
+%============================================================================%
+% Antoine Gé́ré (gere@dima.unige.it).
+%============================================================================%
+
+\documentclass[a4paper]{book}
+
+%-- PACKAGES ----------------------------------------------------------------%
+
+\usepackage{amscd}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{array} 
+\usepackage[english]{babel} 
+\usepackage{cancel}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc} 
+\usepackage{geometry} 
+\usepackage{graphicx} 
+\usepackage{hyperref} 
+\usepackage[utf8]{inputenc} 
+\usepackage{tikz}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{blindtext}
+
+%-- TITLE STYLE -------------------------------------------------------------%
+
+\usepackage[Sonny]{fncychap}
+%\usepackage[Lenny]{fncychap}
+%\usepackage[Bjornstrup]{fncychap}
+
+%\titleformat{<command>}[<shape>]{<format>}{<label>}{<sep>}{<before-code>}[<after-code>]
+%\titlespacing{<command>}{<left>}{<before-sep>}{<after-sep>}
+
+%<command> is the sectioning command to be redefined: \part, \chapter, \section, \subsection, \subsubsection, \paragraph or \subparagraph.
+%<shape> is sectioning paragraph shape; possible values are: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame.
+%<format> is the format to be applied to the title, label, and text; for example \normalfont\Large\bfseries.
+%<label> specify sectioning label.
+%<sep> is the horizontal separation between label and title body and it must be a length and not be empty.
+%<before-code> is code preceding the title body.
+%<after-code> is code following the title body. 
+%<left> increases the left margin.
+%<before-sep> is the vertical space before the title.
+%<after-sep> is the separation between title and non-sectioning text. 
+
+%-- PART --------%
+
+%-- CHAPTER -----%
+
+%-- SECTION -----%
+
+%-- HYPERREF ----------------------------------------------------------------%
+
+\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
+\definecolor{green(ncs)}{rgb}{0.0, 0.62, 0.42}
+\definecolor{amaranth}{rgb}{0.9, 0.17, 0.31}
+\definecolor{burntsienna}{rgb}{0.91, 0.45, 0.32}
+\definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+
+\hypersetup{     
+ unicode=false,      
+ pdftoolbar=true,    
+ pdfmenubar=true,    
+ pdffitwindow=true,  
+ pdfstartview={FitH},
+ pdftitle={PhD thesis},    
+ pdfauthor={Antoine Géré},     
+ pdfsubject={Mathematical Physics},
+ pdfcreator={LaTeX},  
+ pdfproducer={pdfTex},
+ pdfkeywords={Algebraic Quantum Field Theory; Noncommutative Field Theory.},  
+ pdfnewwindow=true,  
+ colorlinks=true, 
+ linkcolor=green(ncs), 
+ urlcolor=amaranth, 
+ citecolor=darkcerulean,
+ filecolor=burntsienna,         
+}
+
+%-- TITLE PAGE -------------------------------------------------------------%
+
+\newcommand*{\titleTH}{%
+%
+\raggedright% 
+%
+\vspace*{44pt}%
+%
+{\LARGE Antoine Géré}\\[\baselineskip]% 
+%
+\vspace*{100pt}%
+%
+{\Huge\bfseries Algebraic and Noncommutative \\[8pt] approaches to Quantum Field Theory}\\[\baselineskip]%
+%
+\vspace*{22pt}%
+%
+{\LARGE Ph.D. thesis}\\[\baselineskip]% 
+%
+\vspace*{44pt}%
+%
+{\LARGE Dipartimento di Matematica}\\[\baselineskip]% 
+%
+{\LARGE Università degli Studi di Genova}\\[\baselineskip]% 
+%
+\vfill % 
+%
+}%
+
+%-- BIBLIOGRAPHY ------------------------------------------------------------%
+
+\begin{filecontents}{biblio.bib}
+%
+%
+@article{LSZ,
+      author         = "Langmann, E. and Szabo, R.J. and Zarembo, K.",
+      title          = "{Exact solution of quantum field theory on noncommutative phase spaces}",
+      journal        = "JHEP",
+      volume         = "0401",
+      pages          = "017",
+      doi            = "10.1088/1126-6708/2004/01/017",
+      year           = "2004",
+      eprint         = "hep-th/0308043",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-th",
+      reportNumber   = "HWM-03-9, EMPG-03-12, ITEP-TH-38-03, UUITP-14-03",
+      SLACcitation   = "%%CITATION = HEP-TH/0308043;%%",
+}
+%
+%
+@article{vit-wal-12,
+      author         = "Vitale, Patrizia and Wallet, Jean-Christophe",
+      title          = "{Noncommutative field theories on $R^3_\lambda$: Toward UV/IR mixing freedom}",
+      journal        = "JHEP",
+      volume         = "1304",
+      pages          = "115",
+      doi            = "10.1007/JHEP04(2013)115, 10.1007/JHEP03(2015)115",
+      year           = "2013",
+      eprint         = "1212.5131",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-th",
+      reportNumber   = "ORSAY-PREPRINT-LPT-12-97",
+      SLACcitation   = "%%CITATION = ARXIV:1212.5131;%%",
+}
+%
+%
+\end{filecontents}
+
+%============================================================================%
+\begin{document}
+%============================================================================%
+
+\clearpage\titleTH
+\thispagestyle{empty}
+
+%----------------------------------------------------------------------------%
+
+\tableofcontents
+
+%----------------------------------------------------------------------------%
+\part{Algebraic quantum field theory}
+%----------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------%
+\chapter{(blablabla)}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\section{(blablabla)}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+\subsection{(blablabla)}
+%----------------------------------------------------------------------------%
+
+(blablabla)
+
+%----------------------------------------------------------------------------%
+
+\nocite{*}
+
+\bibliographystyle{abbrv}
+
+\bibliography{biblio}
+
+%============================================================================%
+\end{document}
+%============================================================================%

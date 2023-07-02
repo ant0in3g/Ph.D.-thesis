@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis_30.05.2016.aux
+The style file: bibstyle.bst
+Database file #1: biblio.bib
+Warning--I'm ignoring GJW_2015's extra "year" field
+--line 189 of file biblio.bib
+Repeated entry---line 547 of file biblio.bib
+ : @article{FR_2014
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring PRANGE_1999's extra "pages" field
+--line 634 of file biblio.bib
+Warning--empty pages in GHP_2015
+Warning--empty publisher in FR_2014
+"$" can't start a style-file command---line 1257 of file bibstyle.bst
+ : 
+ : $
+(Error may have been on previous line)
+You've used 79 entries,
+            2324 wiz_defined-function locations,
+            1122 strings with 16191 characters,
+and the built_in function-call counts, 22897 in all, are:
+= -- 2413
+> -- 548
+< -- 0
++ -- 221
+- -- 142
+* -- 1896
+:= -- 2689
+add.period$ -- 104
+call.type$ -- 79
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 81
+duplicate$ -- 1287
+empty$ -- 2454
+format.name$ -- 142
+if$ -- 5963
+int.to.chr$ -- 0
+int.to.str$ -- 79
+missing$ -- 254
+newline$ -- 265
+num.names$ -- 79
+pop$ -- 465
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 831
+stack$ -- 0
+substring$ -- 1405
+swap$ -- 562
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 212
+width$ -- 81
+write$ -- 634
+(There were 2 error messages)
